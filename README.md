@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to 2017-Summer-School-on-the-Machine-Learning-in-the-Molecular-Sciences
 
 You can use the [editor on GitHub](https://github.com/nickcafferry/2017-Summer-School-on-the-Machine-Learning-in-the-Molecular-Sciences/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
