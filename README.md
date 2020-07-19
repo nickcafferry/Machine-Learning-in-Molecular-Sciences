@@ -1,5 +1,7 @@
-## Welcome to 2017-Summer-School-on-the-Machine-Learning-in-the-Molecular-Sciences
+# Welcome to 2017-Summer-School-on-the-Machine-Learning-in-the-Molecular-Sciences
 
+  欢迎来到2017年上海纽约大学举办的机器学习在分子科学中的应用
+ 
 ![](https://github.com/nickcafferry/2017-Summer-School-on-the-Machine-Learning-in-the-Molecular-Sciences/blob/master/Pictures/Group-Photo.jpg)
 
 
