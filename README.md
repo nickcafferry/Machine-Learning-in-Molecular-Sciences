@@ -43,68 +43,68 @@ Fundamental topics to be covered include basic machine learning models such as *
     
     10:30 - 11:30: _Learning Curves_, _Representations_, and _Training Sets I_ (presented by [Anatole von Lilienfeld](http://www.chemie.unibas.ch/~anatole/))
     
-    11:30 - 12:30: _learning Curves_, _Representations_, and _Training Sets II_ (presented by [Anatole von Lilienfeld](http://www.chemie.unibas.ch/~anatole/))
+    11:30 - 12:30: _Learning Curves_, _Representations_, and _Training Sets II_ (presented by [Anatole von Lilienfeld](http://www.chemie.unibas.ch/~anatole/))
     
     12:30 - 14:00: Lunch Break
     
-    14:00 - 15:00: Review of Electronic Structure, Atomic, Molecular, and Crystal Representations (presented by [Mark Tuckerman](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/mark-tuckerman))
+    14:00 - 15:00: _Review of Electronic Structure, Atomic, Molecular, and Crystal Representations_ (presented by [Mark Tuckerman](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/mark-tuckerman))
     
     15:00 - 15:30: Coffee Break
     
-    15:30 - 17:30: Practical Session: Learning Curves (presented by [Anatole von Lilienfeld](http://www.chemie.unibas.ch/~anatole/))
+    15:30 - 17:30: Practical Session: _Learning Curves_ (presented by [Anatole von Lilienfeld](http://www.chemie.unibas.ch/~anatole/))
 
 - **Wednesday, June 14**
     
-    9:00 - 10:00: Predictiong Properties of Molecules and Materials (presented by [Matthias Rupp](https://www.mrupp.info/))
+    9:00 - 10:00: _Predictiong Properties of Molecules and Materials_ (presented by [Matthias Rupp](https://www.mrupp.info/))
     
     10:00 - 10:30: Coffee Break
     
-    10:30 - 11:30: Parameter Learning and Delta Learning (presented by [Anatole von Lilienfeld](http://www.chemie.unibas.ch/~anatole/))
+    10:30 - 11:30: _Parameter Learning and Delta Learning_ (presented by [Anatole von Lilienfeld](http://www.chemie.unibas.ch/~anatole/))
     
-    11:30 - 12:30: Learning Electronic Densities (presented by [Mark Tuckerman](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/mark-tuckerman)), ML Models of Crystal Properties (presented by [Anatole von Lilienfeld](http://www.chemie.unibas.ch/~anatole/))
+    11:30 - 12:30: _Learning Electronic Densities_ (presented by [Mark Tuckerman](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/mark-tuckerman)),_ML Models of Crystal Properties_ (presented by [Anatole von Lilienfeld](http://www.chemie.unibas.ch/~anatole/))
     
     12:30 - 14:00: Lunch Break
     
-    14:00 - 15:30: Practical Session: Machine Learning and Property Prediction I  (presented by [Matthias Rupp](https://www.mrupp.info/))
+    14:00 - 15:30: Practical Session: _Machine Learning and Property Prediction I_  (presented by [Matthias Rupp](https://www.mrupp.info/))
     
     15:30 - 16:00: Coffee Break
     
-    16:00 - 17:30: Practical Session: Machine Learning and Property Prediction II (presented by [Matthias Rupp](https://www.mrupp.info/))
+    16:00 - 17:30: Practical Session: _Machine Learning and Property Prediction II_ (presented by [Matthias Rupp](https://www.mrupp.info/))
 
 - **Thursday, June 15**
 
-    9:00 - 10:00: Machine Learning of Potential Enenery Surfaces (Ming Chen, California Institute Technology)
+    9:00 - 10:00: _Machine Learning of Potential Enenery Surfaces_ (Ming Chen, California Institute Technology)
     
     10:00 - 10:30: Coffee Break
     
-    10:30 - 11:30: Machine Learning Based Enhanced Sampling (Ming Chen)
+    10:30 - 11:30: _Machine Learning Based Enhanced Sampling_ (Ming Chen)
     
-    11:30 - 12:30: Machine Learning of Free Energy Surfaces (presented by [Mark Tuckerman](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/mark-tuckerman))
+    11:30 - 12:30: _Machine Learning of Free Energy Surfaces_ (presented by [Mark Tuckerman](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/mark-tuckerman))
     
     12:30 - 14:00: Lunch Break
     
-    14:00 - 15:00: Cluster-based Analysis of Molecular Simulations (presented by [Alex Rodriguez](https://www.sissa.it/sbp/members.php?ID=218))
+    14:00 - 15:00: _Cluster-based Analysis of Molecular Simulations_ (presented by [Alex Rodriguez](https://www.sissa.it/sbp/members.php?ID=218))
     
     15:00 - 15:30: Coffee Break
     
-    15:30 - 17:30: Practical Session: Neural Network Learning of Free Energy Surface (presented by [Mark Tuckerman](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/mark-tuckerman))
+    15:30 - 17:30: Practical Session: _Neural Network Learning of Free Energy Surface_ (presented by [Mark Tuckerman](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/mark-tuckerman))
 
 
 - **Friday, June 16**
 
-    9:00 - 10:00: Development of Protein-ligand Scoring Functions (presented by [Yingkai Zhang](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/yingkai-zhang))
+    9:00 - 10:00: _Development of Protein-ligand Scoring Functions_ (presented by [Yingkai Zhang](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/yingkai-zhang))
     
     10:00 - 10:30: Coffee Break
     
-    10:30 - 11:30: Machine Learning in Structural Biology (presented by [Yang Zhang](https://medicine.umich.edu/dept/dcmb/yang-zhang-phd))
+    10:30 - 11:30: _Machine Learning in Structural Biology_ (presented by [Yang Zhang](https://medicine.umich.edu/dept/dcmb/yang-zhang-phd))
     
-    11:30 - 12:30：Machine Learning in Structural Biology II (presented by [Yang Zhang](https://medicine.umich.edu/dept/dcmb/yang-zhang-phd))
+    11:30 - 12:30：_Machine Learning in Structural Biology II_ (presented by [Yang Zhang](https://medicine.umich.edu/dept/dcmb/yang-zhang-phd))
    
     12:30 - 14:00: Lunch Break
     
-    14:00 - 15:30: Practical Session: Random Forests and Scoring Functions (presented by [Yingkai Zhang](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/yingkai-zhang))
+    14:00 - 15:30: _Practical Session: Random Forests and Scoring Functions_ (presented by [Yingkai Zhang](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/yingkai-zhang))
     
     15:30 - 16:00: Coffee Break
     
-    16:00 - 17:30: Practical Session: Machine Learning for Structural Bioinformatics (presented by [Yang Zhang](https://medicine.umich.edu/dept/dcmb/yang-zhang-phd)) 
+    16:00 - 17:30: _Practical Session: Machine Learning for Structural Bioinformatics_ (presented by [Yang Zhang](https://medicine.umich.edu/dept/dcmb/yang-zhang-phd)) 
   
