@@ -29,7 +29,7 @@ In order to promote the idea of free to code, this project is built to help you 
 
     14:00 - 15:00: Introduction to Neural Networks ([Mark Tuckerman](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/mark-tuckerman))
 
-
+    15:00 - 15:30: Coffee Break
 ```markdown
 Syntax highlighted code block
 
