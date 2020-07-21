@@ -51,7 +51,7 @@ Fundamental topics to be covered include basic machine learning models such as *
     
     15:00 - 15:30: Coffee Break
     
-    15:30 - 17:30: Practical Session: _Learning Curves_ (presented by [Anatole von Lilienfeld](http://www.chemie.unibas.ch/~anatole/))
+    15:30 - 17:30: `Practical Session`: _Learning Curves_ (presented by [Anatole von Lilienfeld](http://www.chemie.unibas.ch/~anatole/))
 
 - **Wednesday, June 14**
     
@@ -65,11 +65,11 @@ Fundamental topics to be covered include basic machine learning models such as *
     
     12:30 - 14:00: Lunch Break
     
-    14:00 - 15:30: Practical Session: _Machine Learning and Property Prediction I_  (presented by [Matthias Rupp](https://www.mrupp.info/))
+    14:00 - 15:30: `Practical Session`: _Machine Learning and Property Prediction I_  (presented by [Matthias Rupp](https://www.mrupp.info/))
     
     15:30 - 16:00: Coffee Break
     
-    16:00 - 17:30: Practical Session: _Machine Learning and Property Prediction II_ (presented by [Matthias Rupp](https://www.mrupp.info/))
+    16:00 - 17:30: `Practical Session`: _Machine Learning and Property Prediction II_ (presented by [Matthias Rupp](https://www.mrupp.info/))
 
 - **Thursday, June 15**
 
@@ -87,7 +87,7 @@ Fundamental topics to be covered include basic machine learning models such as *
     
     15:00 - 15:30: Coffee Break
     
-    15:30 - 17:30: Practical Session: _Neural Network Learning of Free Energy Surface_ (presented by [Mark Tuckerman](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/mark-tuckerman))
+    15:30 - 17:30: `Practical Session`: _Neural Network Learning of Free Energy Surface_ (presented by [Mark Tuckerman](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/mark-tuckerman))
 
 
 - **Friday, June 16**
@@ -102,11 +102,11 @@ Fundamental topics to be covered include basic machine learning models such as *
    
     12:30 - 14:00: Lunch Break
     
-    14:00 - 15:30: _Practical Session: Random Forests and Scoring Functions_ (presented by [Yingkai Zhang](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/yingkai-zhang))
+    14:00 - 15:30: `Practical Session`: _Random Forests and Scoring Functions_ (presented by [Yingkai Zhang](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/yingkai-zhang))
     
     15:30 - 16:00: Coffee Break
     
-    16:00 - 17:30: _Practical Session: Machine Learning for Structural Bioinformatics_ (presented by [Yang Zhang](https://medicine.umich.edu/dept/dcmb/yang-zhang-phd)) 
+    16:00 - 17:30: `Practical Session`: _Machine Learning for Structural Bioinformatics_ (presented by [Yang Zhang](https://medicine.umich.edu/dept/dcmb/yang-zhang-phd)) 
     
 ### Internal Links
     
