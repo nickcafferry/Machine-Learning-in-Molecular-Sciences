@@ -5,11 +5,30 @@
 
 [![UosEmd.md.jpg](https://s1.ax1x.com/2020/07/21/UosEmd.md.jpg)](https://imgchr.com/i/UosEmd)
 
-Welcom to 2017 Summer School on the Machine Learning in the Molecular Sciences! This summer school was organized by [New York University Shanghai](https://shanghai.nyu.edu/) (a.k.a, NYU Shanghai) in 2017. In order to promote the idea of free to code, this project is built to help you understand some basic machine learning modelsincluding neural network optimization plan, random forest, parameter learning, incremental learning paradigm, clustering and decision tree, etc. based on kernel regression and dimensionality reduction, feature selection and clustering technology. 
+Welcom to **2017 Summer School on the Machine Learning in the Molecular Sciences**! This summer school was organized by [New York University Shanghai](https://shanghai.nyu.edu/) (a.k.a, NYU Shanghai) in 2017. The NYU-ECNU Center for Computational Chemistry at NYU Shanghai announced a summer school dedicated to machine learning and its applications in the molecular sciences to be held June, 2017 at the NYU Shanghai Pudong Campus. Using a combination of technical lectures and hands-on exercises, the school aimed to instruct attendees in both the fundamentals of modern machine learning techniques and to demonstrate how these approaches can be applied to solve complex computational problems in chemistry, biology, and materials science.  
 
-### Markdown
+Fundamental topics to be covered include basic machine learning models such as *kernel methods* and *neural networks optimization schemes*, *parameter learning* and *delta learning paradigms*, *clustering*, and *decision trees*.  Application areas will feature machine learning models for representing and predicting properties of individual molecules and condensed phases, learning algorithms for bypassing explicit quantum chemical and statistical mechanical calculations, and techniques applicable to biomolecular structure prediction, bioinformatics, protein-ligand binding, materials and molecular design and various others.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In order to promote the idea of free to code, this project is built to help you understand some basic machine learning models mentioned above.
+
+### Course Schedule
+
+- **Monday, June 12**
+
+8:45 - 9:00: Welcome and Introduction
+
+9:00 - 10:00: _Introduction to Machine Learning_ (presented by [Matthias Rupp](https://www.mrupp.info/))
+
+10:00 - 10:20: Coffee Break
+
+10:20 - 11:20: _Kernel-based Regression_ (presented by [Matthias Rupp](https://www.mrupp.info/))
+
+11:20 - 12:30: _Dimensional Reduction_, _Feature Selection_, and _Clustering_ techniques ([Alex Rodriguez](https://www.sissa.it/sbp/members.php?ID=218))
+
+12:30 - 14:00: Lunch Break
+
+
+
 
 ```markdown
 Syntax highlighted code block
