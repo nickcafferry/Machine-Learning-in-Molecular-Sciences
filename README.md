@@ -124,15 +124,10 @@ Fundamental topics to be covered include basic machine learning models such as *
     
 ### External-Links
     
-   * [About](https://www.computational-chemistry-workshop.org/homepage-2017) 
-   
-   * [Committee](https://www.computational-chemistry-workshop.org/committee-2017)
-   
-   * [Speaks](https://www.computational-chemistry-workshop.org/speakers-2017)
-   
-   * [Schedule](https://www.computational-chemistry-workshop.org/schedule-2017)
-   
-   * [Location](https://www.computational-chemistry-workshop.org/location-2017)
-   
-   * [Sponsor](https://www.computational-chemistry-workshop.org/sponsor-2017)
+   * [About](https://www.computational-chemistry-workshop.org/homepage-2017) |
+   * [Committee](https://www.computational-chemistry-workshop.org/committee-2017) |
+   * [Speaks](https://www.computational-chemistry-workshop.org/speakers-2017) |
+   * [Schedule](https://www.computational-chemistry-workshop.org/schedule-2017) |
+   * [Location](https://www.computational-chemistry-workshop.org/location-2017) |
+   * [Sponsor](https://www.computational-chemistry-workshop.org/sponsor-2017) |
    
