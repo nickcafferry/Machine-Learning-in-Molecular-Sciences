@@ -15,19 +15,19 @@ In order to promote the idea of free to code, this project is built to help you 
 
 - **Monday, June 12**
 
-8:45 - 9:00: Welcome and Introduction
+    8:45 - 9:00: Welcome and Introduction
 
-9:00 - 10:00: _Introduction to Machine Learning_ (presented by [Matthias Rupp](https://www.mrupp.info/))
+    9:00 - 10:00: _Introduction to Machine Learning_ (presented by [Matthias Rupp](https://www.mrupp.info/))
 
-10:00 - 10:20: Coffee Break
+    10:00 - 10:20: Coffee Break
 
-10:20 - 11:20: _Kernel-based Regression_ (presented by [Matthias Rupp](https://www.mrupp.info/))
+    10:20 - 11:20: _Kernel-based Regression_ (presented by [Matthias Rupp](https://www.mrupp.info/))
 
-11:20 - 12:30: _Dimensional Reduction_, _Feature Selection_, and _Clustering_ techniques ([Alex Rodriguez](https://www.sissa.it/sbp/members.php?ID=218))
+    11:20 - 12:30: _Dimensional Reduction_, _Feature Selection_, and _Clustering_ techniques ([Alex Rodriguez](https://www.sissa.it/sbp/members.php?ID=218))
 
-12:30 - 14:00: Lunch Break
+    12:30 - 14:00: Lunch Break
 
-
+    14:00 - 15:00: Introduction to Neural Networks ([Mark Tuckerman](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/mark-tuckerman))
 
 
 ```markdown
