@@ -1,7 +1,10 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
 
-**[Aims](**aims)** |
-
+**[Aims](#aims)** |
+**[Panel Topics](#panel-topics)** |
+**[Course Schedule](#course-scheduel)** |
+**[Internal Links](#internal-links)** |
+**[External Links](#external-links)** |
 
 # Welcome to 2017 Summer School on the Machine Learning in the Molecular Sciences
 ---
