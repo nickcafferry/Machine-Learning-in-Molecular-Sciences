@@ -2,7 +2,7 @@
 
 **[Aims](#aims)** |
 **[Panel Topics](#panel-topics)** |
-**[Course Schedule](#course-scheduel)** |
+**[Course Schedule](#course-schedule)** |
 **[Internal Links](#internal-links)** |
 **[External Links](#external-links)** |
 
