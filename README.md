@@ -107,4 +107,15 @@ Fundamental topics to be covered include basic machine learning models such as *
     15:30 - 16:00: Coffee Break
     
     16:00 - 17:30: _Practical Session: Machine Learning for Structural Bioinformatics_ (presented by [Yang Zhang](https://medicine.umich.edu/dept/dcmb/yang-zhang-phd)) 
-  
+    
+### Internal Links
+    
+    * Annual Conference on Neural Information Processing Systems ([NIPS](https://nips.cc/))
+    
+    * International Conference on Machine Learning ([ICML](https://icml.cc/))
+    
+    * Conference on Learning Theory ([COLT](https://www.learningtheory.org/))
+    
+### External Links
+
+    
