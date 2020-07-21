@@ -1,3 +1,5 @@
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
+
 # Welcome to 2017 Summer School on the Machine Learning in the Molecular Sciences
 
 ![](https://github.com/nickcafferry/2017-Summer-School-on-the-Machine-Learning-in-the-Molecular-Sciences/blob/master/Pictures/Group-Photo.jpg)
