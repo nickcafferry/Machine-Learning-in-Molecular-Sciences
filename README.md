@@ -5,10 +5,7 @@
 
 [![UosEmd.md.jpg](https://s1.ax1x.com/2020/07/21/UosEmd.md.jpg)](https://imgchr.com/i/UosEmd)
 
-
-You can use the [editor on GitHub](https://github.com/nickcafferry/2017-Summer-School-on-the-Machine-Learning-in-the-Molecular-Sciences/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Welcom to 2017 Summer School on the Machine Learning in the Molecular Sciences! This summer school was organized by [New York University Shanghai](https://shanghai.nyu.edu/) (a.k.a, NYU Shanghai) in 2017. In order to promote the idea of free to code, this project is built to help you understand some basic machine learning modelsincluding neural network optimization plan, random forest, parameter learning, incremental learning paradigm, clustering and decision tree, etc. based on kernel regression and dimensionality reduction, feature selection and clustering technology. 
 
 ### Markdown
 
