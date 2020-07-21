@@ -27,15 +27,18 @@ In order to promote the idea of free to code, this project is built to help you 
 
     12:30 - 14:00: Lunch Break
 
-    14:00 - 15:00: Introduction to Neural Networks ([Mark Tuckerman](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/mark-tuckerman))
+    14:00 - 15:00: _Introduction to Neural Networks_ ([Mark Tuckerman](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/mark-tuckerman))
 
     15:00 - 15:30: Coffee Break
-```markdown
-Syntax highlighted code block
+    15:30 - 17:30: `Practical Session`: _Clustering with Feature Selection and Validation_ ([Alex Rodriguez](https://www.sissa.it/sbp/members.php?ID=218))
+    
+- **Tuesday, June 13**
+    9:00 - 10:00: _Random Forests_(Yingkai Zhang)
+    10:00 - 10:30: Coffee Break
+    10:30 - 11:30: _Learning Curves_, _Representations_, and _Training Sets I_ (Anatole von Lilienfeld)
+    11:30 - 12:30: _learning Curves_, _Representations_, and _Training Sets II_ (Anatole von Lilienfeld)
+    
 
-# Header 1
-## Header 2
-### Header 3
 
 - Bulleted
 - List
