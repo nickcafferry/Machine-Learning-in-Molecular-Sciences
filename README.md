@@ -1,8 +1,9 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
 
 # Welcome to 2017 Summer School on the Machine Learning in the Molecular Sciences
+---
 
-![](https://github.com/nickcafferry/2017-Summer-School-on-the-Machine-Learning-in-the-Molecular-Sciences/blob/master/Pictures/Group-Photo.jpg)
+[![UosEmd.md.jpg](https://s1.ax1x.com/2020/07/21/UosEmd.md.jpg)](https://imgchr.com/i/UosEmd)
 
 
 You can use the [editor on GitHub](https://github.com/nickcafferry/2017-Summer-School-on-the-Machine-Learning-in-the-Molecular-Sciences/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
