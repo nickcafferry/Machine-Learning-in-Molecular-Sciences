@@ -57,7 +57,7 @@ Fundamental topics to be covered include basic machine learning models such as *
     
     15:00 - 15:30: Coffee Break
     
-    15:30 - 17:30: `Practical Session`: _Learning Curves_ (presented by [Anatole von Lilienfeld](http://www.chemie.unibas.ch/~anatole/))
+    15:30 - 17:30: **[Practical Session](#tuesday-june-13)**: _Learning Curves_ (presented by [Anatole von Lilienfeld](http://www.chemie.unibas.ch/~anatole/))
 
 - **Wednesday, June 14**
     
@@ -113,7 +113,13 @@ Fundamental topics to be covered include basic machine learning models such as *
     15:30 - 16:00: Coffee Break
     
     16:00 - 17:30: `Practical Session`: _Machine Learning for Structural Bioinformatics_ (presented by [Yang Zhang](https://medicine.umich.edu/dept/dcmb/yang-zhang-phd)) 
-    
+
+### Codes
+
+- **Tuesday-June-13**
+   
+   For `Practical Session`: __Learning Curves__, please run these commands on [huawei cloud](https://www.huaweicloud.com/product/modelarts.html)
+
 ### Internal-Links
     
    * Annual Conference on Neural Information Processing Systems ([NIPS](https://nips.cc/))
