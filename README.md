@@ -6,7 +6,7 @@
 **[Internal Links](#internal-links)** |
 **[External Links](#external-links)** |
 
-# Welcome to 2017 Summer School on the Machine Learning in the Molecular Sciences
+# Welcome to Machine Learning in the Molecular Sciences
 ---
 
 [![UosEmd.md.jpg](https://s1.ax1x.com/2020/07/21/UosEmd.md.jpg)](https://imgchr.com/i/UosEmd)
