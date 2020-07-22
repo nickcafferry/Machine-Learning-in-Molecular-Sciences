@@ -57,7 +57,7 @@ Fundamental topics to be covered include basic machine learning models such as *
     
     15:00 - 15:30: Coffee Break
     
-    15:30 - 17:30: **[Practical Session](#tuesday-june-13)**: _Learning Curves_ (presented by [Anatole von Lilienfeld](http://www.chemie.unibas.ch/~anatole/))
+    15:30 - 17:30: **[Practical Session](#codes)**: _Learning Curves_ (presented by [Anatole von Lilienfeld](http://www.chemie.unibas.ch/~anatole/))
 
 - **Wednesday, June 14**
     
