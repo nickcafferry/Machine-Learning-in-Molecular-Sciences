@@ -102,7 +102,7 @@ Fundamental topics to be covered include basic machine learning models such as *
     
     10:00 - 10:30: Coffee Break
     
-    10:30 - 11:30: _Machine Learning in Structural Biology_ (presented by [Yang Zhang](https://medicine.umich.edu/dept/dcmb/yang-zhang-phd))
+    10:30 - 11:30: _Machine Learning in Structural Biology I_ (presented by [Yang Zhang](https://medicine.umich.edu/dept/dcmb/yang-zhang-phd))
     
     11:30 - 12:30：_Machine Learning in Structural Biology II_ (presented by [Yang Zhang](https://medicine.umich.edu/dept/dcmb/yang-zhang-phd))
    
