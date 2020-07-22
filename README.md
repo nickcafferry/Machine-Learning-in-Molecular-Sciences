@@ -39,7 +39,7 @@ Fundamental topics to be covered include basic machine learning models such as *
 
     15:00 - 15:30: Coffee Break
     
-    15:30 - 17:30: `Practical Session`: _Clustering with Feature Selection and Validation_ (presented by [Alex Rodriguez](https://www.sissa.it/sbp/members.php?ID=218))
+    15:30 - 17:30: **[Practical Session](#codes)**: _Clustering with Feature Selection and Validation_ (presented by [Alex Rodriguez](https://www.sissa.it/sbp/members.php?ID=218))
     
 - **Tuesday, June 13**
 
@@ -71,11 +71,11 @@ Fundamental topics to be covered include basic machine learning models such as *
     
     12:30 - 14:00: Lunch Break
     
-    14:00 - 15:30: `Practical Session`: _Machine Learning and Property Prediction I_  (presented by [Matthias Rupp](https://www.mrupp.info/))
+    14:00 - 15:30: **[Practical Session](#codes)**: _Machine Learning and Property Prediction I_  (presented by [Matthias Rupp](https://www.mrupp.info/))
     
     15:30 - 16:00: Coffee Break
     
-    16:00 - 17:30: `Practical Session`: _Machine Learning and Property Prediction II_ (presented by [Matthias Rupp](https://www.mrupp.info/))
+    16:00 - 17:30: **[Practical Session](#codes)**: _Machine Learning and Property Prediction II_ (presented by [Matthias Rupp](https://www.mrupp.info/))
 
 - **Thursday, June 15**
 
@@ -93,7 +93,7 @@ Fundamental topics to be covered include basic machine learning models such as *
     
     15:00 - 15:30: Coffee Break
     
-    15:30 - 17:30: `Practical Session`: _Neural Network Learning of Free Energy Surface_ (presented by [Mark Tuckerman](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/mark-tuckerman))
+    15:30 - 17:30: **[Practical Session](#codes)**: _Neural Network Learning of Free Energy Surface_ (presented by [Mark Tuckerman](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/mark-tuckerman))
 
 
 - **Friday, June 16**
@@ -108,17 +108,33 @@ Fundamental topics to be covered include basic machine learning models such as *
    
     12:30 - 14:00: Lunch Break
     
-    14:00 - 15:30: `Practical Session`: _Random Forests and Scoring Functions_ (presented by [Yingkai Zhang](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/yingkai-zhang))
+    14:00 - 15:30: **[Practical Session](#codes)**: _Random Forests and Scoring Functions_ (presented by [Yingkai Zhang](https://research.shanghai.nyu.edu/centers-and-institutes/chemistry/people/yingkai-zhang))
     
     15:30 - 16:00: Coffee Break
     
-    16:00 - 17:30: `Practical Session`: _Machine Learning for Structural Bioinformatics_ (presented by [Yang Zhang](https://medicine.umich.edu/dept/dcmb/yang-zhang-phd)) 
+    16:00 - 17:30: **[Practical Session](#codes)**: _Machine Learning for Structural Bioinformatics_ (presented by [Yang Zhang](https://medicine.umich.edu/dept/dcmb/yang-zhang-phd)) 
 
 ### Codes
 
 - **Tuesday-June-13**
    
-   For `Practical Session`: __Learning Curves__, please run these commands on [huawei cloud](https://www.huaweicloud.com/product/modelarts.html)
+   For __Practical Session: Learning Curves__, please run these commands on Jupyterlab via [huawei cloud](https://www.huaweicloud.com/product/modelarts.html):
+   
+   ```conda
+   !pip install qml
+   !git clone https://github.com/qmlcode/tutorial.git
+   ls
+   cd tutorial
+   ls
+   %load exercise_2_1.py
+   %run exercise_2_1.py
+   %load exercise_2_2.py
+   %run exercise_2_2.py
+   %load exercise_2_3.py
+   %run exercise_2_3.py
+   %load exercise_2_4.py
+   %run exercise_2_4.py
+   ```
 
 ### Internal-Links
     
