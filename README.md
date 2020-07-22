@@ -120,7 +120,7 @@ Fundamental topics to be covered include basic machine learning models such as *
    
    For __Practical Session: Learning Curves__, please run these commands on Jupyterlab via [huawei cloud](https://www.huaweicloud.com/product/modelarts.html):
    
-   ```jupyterlab
+   ```python
    !pip install qml
    !git clone https://github.com/qmlcode/tutorial.git
    ls
