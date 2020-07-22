@@ -1,4 +1,4 @@
-
+```sh
 #!/bin/bash
 
 # This script is used to download and extract uniprot20, uniref90 and nr
@@ -34,3 +34,4 @@ tar -xvzf nr.tar.gz
 rm nr.tar.gz
 echo "Done with downloading and extracting nr!"
 cd ../
+```
