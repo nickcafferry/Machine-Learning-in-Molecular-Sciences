@@ -25,7 +25,6 @@ setup(
     author="Wei MEI",
     url='https://github.com/nickcafferry/Machine-Learning-in-the-Molecular-Sciences',
     
-    install_requires=requirements,
     license="MIT license",
     zip_safe=False,
     keywords='Machine-Learning-in-Molecular-Sciences',
