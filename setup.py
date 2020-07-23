@@ -9,14 +9,14 @@ from setuptools import setup
 #with open('HISTORY.rst') as history_file:
 #    history = history_file.read()
 
-requirements = [
-    'MLMoleSci>=0.3.0'
-]
+#requirements = [
+#    'MLMoleSci>=0.3.0'
+#]
 
-test_requirements = [
-    'tox',
-    'flake8'
-]
+#test_requirements = [
+#    'tox',
+#    'flake8'
+#]
 
 setup(
     name='Machine Learning in Molecular Sciences',
@@ -37,6 +37,5 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    test_suite='tests',
-    tests_require=test_requirements
+    test_suite='tests'
 )
