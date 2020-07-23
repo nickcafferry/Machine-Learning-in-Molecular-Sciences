@@ -1,6 +1,4 @@
-.. image:: https://img.shields.io/badge/python-3.7,3.8-blue.svg
-   :target: https://www.python.org/
-   :alt: Python version
+[![Python version](https://img.shields.io/badge/python-3.7,3.8-blue.svg)](https://www.python.org/)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
 
 **[Aims](#aims)** |
