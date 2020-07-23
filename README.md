@@ -1,3 +1,4 @@
+[![Documentation Status](https://readthedocs.org/projects/machine-learning-on-molecular-sciences/badge/?version=latest)](https://machine-learning-on-molecular-sciences.readthedocs.io/en/latest/?badge=latest)
 [![Python version](https://img.shields.io/badge/python-3.7,3.8-blue.svg)](https://www.python.org/)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
 
