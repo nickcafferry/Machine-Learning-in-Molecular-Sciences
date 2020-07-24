@@ -35,9 +35,9 @@ pygments_style = 'default'
 
 html_static_path = ['assets']
 html_theme = 'sphinx_rtd_theme'
-html_favicon = 'imperfection.png'
-html_logo = 'imperfection.png'
-html_theme_options = {
-    'logo_only': True,
-    'style_nav_header_background': '#343131',
-}
+#html_favicon = 'imperfection.png'
+#html_logo = 'imperfection.png'
+#html_theme_options = {
+#    'logo_only': True,
+#   'style_nav_header_background': '#343131',
+#}
