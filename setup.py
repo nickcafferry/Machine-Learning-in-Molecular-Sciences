@@ -3,8 +3,8 @@
 
 from setuptools import setup
 
-#with open('README.rst') as readme_file:
-#   readme = readme_file.read()
+with open('README.rst') as readme_file:
+    readme = readme_file.read()
 
 #with open('HISTORY.rst') as history_file:
 #    history = history_file.read()
@@ -23,7 +23,7 @@ setup(
     version='1.3.0',
     description="Machine Learning in Molecular Sciences",
     author="Wei MEI",
-    url='https://github.com/nickcafferry/Machine-Learning-in-the-Molecular-Sciences',
+    url='https://Machine-Learning-in-the-Molecular-Sciences.ml',
     
     license="MIT license",
     zip_safe=False,
