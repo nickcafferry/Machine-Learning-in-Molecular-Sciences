@@ -35,9 +35,9 @@ pygments_style = 'default'
 
 html_static_path = ['assets']
 html_theme = 'sphinx_rtd_theme'
-html_favicon = [![UosEmd.md.jpg](https://s1.ax1x.com/2020/07/21/UosEmd.md.jpg)](https://imgchr.com/i/UosEmd)
-html_logo = [![UosEmd.md.jpg](https://s1.ax1x.com/2020/07/21/UosEmd.md.jpg)](https://imgchr.com/i/UosEmd)
+html_favicon = 'https://s1.ax1x.com/2020/07/21/UosEmd.md.jpg'
+html_logo = 'https://s1.ax1x.com/2020/07/21/UosEmd.md.jpg'
 html_theme_options = {
     'logo_only': True,
-   'style_nav_header_background': '#343131',
+    'style_nav_header_background': '#343131',
 }
