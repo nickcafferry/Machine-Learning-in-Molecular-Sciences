@@ -4,7 +4,7 @@ Machine Learning in Molecular Sciences
 .. image:: https://s1.ax1x.com/2020/07/21/UosEmd.md.jpg
 
 * **Aims**:
-The NYU-ECNU Center for Computational Chemistry at `New York University Shanghai<https://shanghai.nyu.edu/>` (a.k.a, NYU Shanghai) announced a summer school dedicated to machine learning and its applications in the molecular sciences to be held June, 2017 at the NYU Shanghai Pudong Campus. Using a combination of technical lectures and hands-on exercises, the school aimed to instruct attendees in both the fundamentals of modern machine learning techniques and to demonstrate how these approaches can be applied to solve complex computational problems in chemistry, biology, and materials science. In order to promote the idea of free to code, this project is built to help you understand some basic machine learning models mentioned below.
+The NYU-ECNU Center for Computational Chemistry at `New York University Shanghai <https://shanghai.nyu.edu/>`_ (a.k.a, NYU Shanghai) announced a summer school dedicated to machine learning and its applications in the molecular sciences to be held June, 2017 at the NYU Shanghai Pudong Campus. Using a combination of technical lectures and hands-on exercises, the school aimed to instruct attendees in both the fundamentals of modern machine learning techniques and to demonstrate how these approaches can be applied to solve complex computational problems in chemistry, biology, and materials science. In order to promote the idea of free to code, this project is built to help you understand some basic machine learning models mentioned below.
 
 * **Topics**: 
 
