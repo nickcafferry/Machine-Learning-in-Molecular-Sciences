@@ -1,7 +1,6 @@
 Machine Learning in Molecular Sciences
 ==================================================
 
-.. image:: assets/image/DocumentHeader.png
 
 这些文档基于 `3b1b/manim存储库 <https://github.com/3b1b/manim>`_ 的master分支，你可以通过提交pr来为文档做出贡献，详见 `贡献规则及编写指南页面 <https://manim.ml/contribution>`__
 
