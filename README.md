@@ -140,7 +140,11 @@ Fundamental topics to be covered include basic machine learning models such as *
    %load exercise_2_4.py
    %run exercise_2_4.py
    ```
+- **Wednesday-June-14**
 
+   For __Practical Session: Learning Curves__, please run these commands on [Wolfram Cloud](https://www.wolframcloud.com/):
+   
+   
 ### Internal-Links
     
    * Annual Conference on Neural Information Processing Systems ([NIPS](https://nips.cc/))
