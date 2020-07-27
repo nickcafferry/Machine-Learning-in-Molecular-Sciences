@@ -197,7 +197,7 @@ The success of machine-learning technology relies on three contributing factors:
 
 ##### Publicly accessible structure and property databases for molecules and solid materials.
 
-###### Computed structures and properties ######:
+###### Computed structures and properties:
 
 [AFLOWLIB](http://afowlib.org)  (Structure and property repository from high-throughput ab initio calculations of inorganic materials)
 
@@ -220,7 +220,7 @@ The success of machine-learning technology relies on three contributing factors:
 [ZINC](https://zinc15.docking.org) (Commercially available organic molecules in 2D and 3D formats) 
 
 
-###### Experimental structures and properties ######:
+###### Experimental structures and properties:
 
 [ChEMBL](https://www.ebi.ac.uk/chembl) (Bioactive molecules with drug-like properties)
 
@@ -250,7 +250,7 @@ The success of machine-learning technology relies on three contributing factors:
 
 ##### Publicly accessible learning resources and tools related to machine learning
 
-###### General-purpose machine-learning frameworks ######:
+###### General-purpose machine-learning frameworks:
 
 [Caret](https://topepo.github.io/caret) (Package for machine learning in R) 
 
@@ -267,7 +267,7 @@ The success of machine-learning technology relies on three contributing factors:
 [Weka](https://cs.waikato.ac.nz/ml/weka) (Collection of machine-learning algorithms and tasks written in Java) 
 
 
-###### Machine-learning tools for molecules and materials ######:
+###### Machine-learning tools for molecules and materials:
 
 [Amp](https://bitbucket.org/andrewpeterson/amp) (Package to facilitate machine learning for atomistic calculations) 
 
