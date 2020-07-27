@@ -403,7 +403,7 @@ Fundamental topics to be covered include basic machine learning models such as *
   Table[t=Position[stat/.perfG,Min[stat/.perfG],{2},Heads->False];
   Join[Log[2,{rsgrid\[LeftDoubleBracket]t\[LeftDoubleBracket]1,2〛〛,lsgrid\[LeftDoubleBracket]t\[LeftDoubleBracket]1,1〛〛}],
   Log[10,{rsgrid\[LeftDoubleBracket]t\[LeftDoubleBracket]1,2〛〛,lsgrid\[LeftDoubleBracket]t\[LeftDoubleBracket]1,1〛〛}],
-  Extract[stat/.perfG,t]],{stat,{"RootMeanSquareError","MeanAbsoluteError","OneMinusCorrelationSquared"}}]//TraditionalForm
+tgb  Extract[stat/.perfG,t]],{stat,{"RootMeanSquareError","MeanAbsoluteError","OneMinusCorrelationSquared"}}]//TraditionalForm
   
   estperf[2.^-22,2.^9.5,KernelGaussian]
   
@@ -452,6 +452,9 @@ Fundamental topics to be covered include basic machine learning models such as *
   ScatterPlot[ae\[LeftDoubleBracket]indholdout〛,krr[ll]]
   
    ```
+  
+  In order to compile the code, a C++ compiler and the mkl library will be needed
+   
 ### Internal-Links
     
    * Annual Conference on Neural Information Processing Systems ([NIPS](https://nips.cc/))
