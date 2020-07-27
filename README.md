@@ -400,10 +400,10 @@ Fundamental topics to be covered include basic machine learning models such as *
   
   (* Optimal hyperparameters for each statistic:*)
   
-  Table[t=Position[stat/.perfG,Min[stat/.perfG],{2},Heads->False];
-  Join[Log[2,{rsgrid\[LeftDoubleBracket]t\[LeftDoubleBracket]1,2〛〛,lsgrid\[LeftDoubleBracket]t\[LeftDoubleBracket]1,1〛〛}],
-  Log[10,{rsgrid\[LeftDoubleBracket]t\[LeftDoubleBracket]1,2〛〛,lsgrid\[LeftDoubleBracket]t\[LeftDoubleBracket]1,1〛〛}],
-tgb  Extract[stat/.perfG,t]],{stat,{"RootMeanSquareError","MeanAbsoluteError","OneMinusCorrelationSquared"}}]//TraditionalForm
+  Table[t=Position[stat/.perfG,Min[stat/.perfG],{2},Heads->False];	  Table[t=Position[stat/.perfG,Min[stat/.perfG],{2},Heads->False];
+  Join[Log[2,{rsgrid\[LeftDoubleBracket]t\[LeftDoubleBracket]1,2〛〛,lsgrid\[LeftDoubleBracket]t\[LeftDoubleBracket]1,1〛〛}],	  Join[Log[2,{rsgrid\[LeftDoubleBracket]t\[LeftDoubleBracket]1,2〛〛,lsgrid\[LeftDoubleBracket]t\[LeftDoubleBracket]1,1〛〛}],
+  Log[10,{rsgrid\[LeftDoubleBracket]t\[LeftDoubleBracket]1,2〛〛,lsgrid\[LeftDoubleBracket]t\[LeftDoubleBracket]1,1〛〛}],	  Log[10,{rsgrid\[LeftDoubleBracket]t\[LeftDoubleBracket]1,2〛〛,lsgrid\[LeftDoubleBracket]t\[LeftDoubleBracket]1,1〛〛}],
+  Extract[stat/.perfG,t]],{stat,{"RootMeanSquareError","MeanAbsoluteError","OneMinusCorrelationSquared"}}]//TraditionalForm
   
   estperf[2.^-22,2.^9.5,KernelGaussian]
   
@@ -452,8 +452,26 @@ tgb  Extract[stat/.perfG,t]],{stat,{"RootMeanSquareError","MeanAbsoluteError","O
   ScatterPlot[ae\[LeftDoubleBracket]indholdout〛,krr[ll]]
   
    ```
+   
+- **Thursday-June-15**
+
+  For __Practical Session: Machine Learning of Free Energy Surfaces__, please run these commands on Linux system (In order to compile the code, a C++ compiler and the mkl library will be needed): 
   
-  In order to compile the code, a C++ compiler and the mkl library will be needed
+  1. Unpack the tar file:
+  ```sh
+  tar -xzvf Neural_network_practical_software.tar.gz
+  ```
+  2. Change Command-Line-Interface to the directory created by unpacking and compile the source code. At the beginning, edit 'Makefile' and change the C and C++ compliers to the corresponding ones you have available on your sytem, e.g., 'gcc' and 'g++' or 'icc' if necessary. The complie the code by typing 
+ ```sh
+ make
+ ```
+  3. Create a training data set from the full dataset. One of two commands is avaiable for use:
+  ```sh
+  head -n ala-dip-data_all.txt > ala-dip-data.txt
+  tail -nl ala-dip-data_all.txt > ala-dip-data.txt
+  ```
+   Here n is the number of training points you wish to extract from the full dataset.
+   4. Edit the 2nd, 3rd, 4th, and 5th lines in the file "INPUT.txt" if you want to change the calculation type, number of conjugate gradient steps, checkpointing frequency of weights, and number of conjugate gradient line-minmization steps. 
    
 ### Internal-Links
     
