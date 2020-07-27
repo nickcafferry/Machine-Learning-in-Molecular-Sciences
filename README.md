@@ -529,9 +529,9 @@ The success of machine-learning technology relies on three contributing factors:
 
 [Caret](https://topepo.github.io/caret) (Package for machine learning in R) 
 
-Deeplearning4j  (Distributed deep learning for Java) https://topepo.github.io/caret
+[Deeplearning4j](https://deeplearning4j.org) (Distributed deep learning for Java)
 
-[H2O.ai](https://h2o.ai) (Machine-learning platform written in Java that can be imported as a Python or R library) https://h2o.ai
+[H2O.ai](https://h2o.ai) (Machine-learning platform written in Java that can be imported as a Python or R library) 
 
 [Keras](https://keras.io) (High-level neural-network API written in Python) 
 
@@ -576,11 +576,11 @@ teaches Python at the same time as machine learning.
 * Academic MOOCs are useful courses for those wishing to get more involved with the theory and principles of artifcial intelligence and machine learning,
 as well as the practice. The [Stanford MOOC](https://www.coursera.org/learn/machine-learning) is popular, with excellent alternatives available from 
 sources such as [edx](https://www.edx.org) (see, for example, ‘Learning from data (introductory machine learning)’) and [udemy](https://www.udemy.com)
-(search for ‘Machine learning A–Z’). The underlying mathematics is the topic of a course from Imperial College London [coursera](https://www.coursera.org/ specializations/mathematics-machine-learning).
+(search for ‘Machine learning A–Z’). The underlying mathematics is the topic of a course from Imperial College London [coursera](https://www.coursera.org/specializations/mathematics-machine-learning).
 
 * Many machine-learning professionals run informative blogs and podcasts that deal with specifc aspects of machine-learning practice. These are useful 
 resources for general interest as well as for broadening and deepening knowledge. There are too many to provide an exhaustive list here, but we recommend
-[machinelearningmastery](https://machinelearningmastery.com) and [lineardigression](http://lineardigressions.com )as a starting point.
+[machinelearningmastery](https://machinelearningmastery.com) and [lineardigression](http://lineardigressions.com) as a starting point.
 
 [About](https://www.computational-chemistry-workshop.org/homepage-2017) |
 [Committee](https://www.computational-chemistry-workshop.org/committee-2017) |
