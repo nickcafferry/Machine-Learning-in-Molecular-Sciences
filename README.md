@@ -172,7 +172,11 @@ Fundamental topics to be covered include basic machine learning models such as *
      Here n is the number of training points you wish to extract from the full dataset.
      
   _4_. Edit the 2nd, 3rd, 4th, and 5th lines in the file "INPUT.txt" if you want to change the calculation type, number of conjugate gradient steps, checkpointing frequency of weights, and number of conjugate gradient line-minmization steps. 
-   
+
+### Deployment
+
+   [Machine Learning in Molecular Sciences](https://nickcafferry.github.io/Machine-Learning-in-Molecular-Sciences/)
+
 ### Internal-Links
     
    * Annual Conference on Neural Information Processing Systems ([NIPS](https://nips.cc/))
@@ -193,7 +197,7 @@ The success of machine-learning technology relies on three contributing factors:
 
 ##### Publicly accessible structure and property databases for molecules and solid materials.
 
-**Computed structures and properties**:
+###### Computed structures and properties ######:
 
 [AFLOWLIB](http://afowlib.org)  (Structure and property repository from high-throughput ab initio calculations of inorganic materials)
 
@@ -216,7 +220,7 @@ The success of machine-learning technology relies on three contributing factors:
 [ZINC](https://zinc15.docking.org) (Commercially available organic molecules in 2D and 3D formats) 
 
 
-**Experimental structures and properties**:
+###### Experimental structures and properties ######:
 
 [ChEMBL](https://www.ebi.ac.uk/chembl) (Bioactive molecules with drug-like properties)
 
@@ -246,7 +250,7 @@ The success of machine-learning technology relies on three contributing factors:
 
 ##### Publicly accessible learning resources and tools related to machine learning
 
-**General-purpose machine-learning frameworks**:
+###### General-purpose machine-learning frameworks ######:
 
 [Caret](https://topepo.github.io/caret) (Package for machine learning in R) 
 
@@ -263,7 +267,7 @@ The success of machine-learning technology relies on three contributing factors:
 [Weka](https://cs.waikato.ac.nz/ml/weka) (Collection of machine-learning algorithms and tasks written in Java) 
 
 
-**Machine-learning tools for molecules and materials**:
+###### Machine-learning tools for molecules and materials ######:
 
 [Amp](https://bitbucket.org/andrewpeterson/amp) (Package to facilitate machine learning for atomistic calculations) 
 
@@ -305,7 +309,7 @@ resources for general interest as well as for broadening and deepening knowledge
 
 [About](https://www.computational-chemistry-workshop.org/homepage-2017) |
 [Committee](https://www.computational-chemistry-workshop.org/committee-2017) |
-[Speaks](https://www.computational-chemistry-workshop.org/speakers-2017) |
+[Speakers](https://www.computational-chemistry-workshop.org/speakers-2017) |
 [Schedule](https://www.computational-chemistry-workshop.org/schedule-2017) |
 [Location](https://www.computational-chemistry-workshop.org/location-2017) |
 [Sponsor](https://www.computational-chemistry-workshop.org/sponsor-2017) |
