@@ -156,15 +156,15 @@ Fundamental topics to be covered include basic machine learning models such as *
 
   For __Practical Session: Machine Learning of Free Energy Surfaces__, please run these commands on Linux system (In order to compile the code, a C++ compiler and the mkl library will be needed): 
   
-  _1._ Unpack the tar file:                 
+_1._ Unpack the tar file:                 
 
                                         tar -xzvf Neural_network_practical_software.tar.gz
 
-  _2._ Change Command-Line-Interface to the directory created by unpacking and compile the source code. At the beginning, edit 'Makefile' and change the C and C++ compliers to the corresponding ones you have available on your sytem, e.g., 'gcc' and 'g++' or 'icc' if necessary. The complie the code by typing 
+_2._ Change Command-Line-Interface to the directory created by unpacking and compile the source code. At the beginning, edit 'Makefile' and change the C and C++ compliers to the corresponding ones you have available on your sytem, e.g., 'gcc' and 'g++' or 'icc' if necessary. The complie the code by typing 
                         
                                                              make
 
-  _3._ Create a training data set from the full dataset. One of two commands is avaiable for use:
+ _3._ Create a training data set from the full dataset. One of two commands is avaiable for use:
                        
                                          head -n ala-dip-data_all.txt > ala-dip-data.txt
                                          tail -nl ala-dip-data_all.txt > ala-dip-data.txt
