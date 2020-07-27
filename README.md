@@ -517,7 +517,7 @@ The success of machine-learning technology relies on three contributing factors:
 
 [NIST Materials Data Repository](https://materialsdata.nist.gov) (Repository to upload materials data associated with specifc publications) 
 
-[PubChem]() (Biological activities of small molecules) 
+[PubChem](https://pubchem.ncbi.nlm.nih.gov) (Biological activities of small molecules) 
 
 
 
