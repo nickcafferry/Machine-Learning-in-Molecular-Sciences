@@ -142,7 +142,7 @@ Fundamental topics to be covered include basic machine learning models such as *
    ```
 - **Wednesday-June-14**
 
-   For __Practical Session: Learning Curves__, please run these commands on [Wolfram Cloud](https://www.wolframcloud.com/):
+   For __Practical Session: Machine Learning and Property Prediction__, please run these commands on [Wolfram Cloud](https://www.wolframcloud.com/):
    
    ```mathematica
    
