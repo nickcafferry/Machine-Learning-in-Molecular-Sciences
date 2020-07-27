@@ -213,7 +213,8 @@ Fundamental topics to be covered include basic machine learning models such as *
   (* Epilog plots points at location of optimal hyperparameters and any passed ones *)
   
   (* Create graph *)
-  gopts={\[IndentingNewLine]ColorFunction->colorf,ColorFunctionScaling->False,
+  gopts={
+  ColorFunction->colorf,ColorFunctionScaling->False,
   FrameLabel->{{"SubscriptBox["log", "2"](\[Lambda])","SubscriptBox["log", "10"](\[Lambda])"},{"SubscriptBox["log", 
   "2"](\[Sigma])","SubscriptBox["log", "10"](\[Sigma])"}},FrameStyle->12, FrameTicks->{{Automatic,N[rsticks10]},
   {Automatic,lsticks10}},ImageSize->Medium};
