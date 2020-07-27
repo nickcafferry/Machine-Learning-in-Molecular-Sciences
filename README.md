@@ -468,12 +468,11 @@ calculations really approachable).
 
 The success of machine-learning technology relies on three contributing factors: open data, open software and open education. 
 
-Open data: 
-1. Publicly accessible structure and property databases for molecules and solid materials.
+#### Open data: 
 
+##### Publicly accessible structure and property databases for molecules and solid materials.
 
-
-Computed structures and properties:
+**Computed structures and properties**:
 
 [AFLOWLIB](http://afowlib.org)  (Structure and property repository from high-throughput ab initio calculations of inorganic materials)
 
@@ -485,10 +484,9 @@ Computed structures and properties:
 
 [Materials Project](https://materialsproject.org) (Computed properties of known and hypothetical materials carried out using a standard calculation scheme) 
 
-[NOMAD]() (Input and output files from calculations using a wide variety of electronicstructure codes) 
+[NOMAD](https://nomad-repository.eu) (Input and output files from calculations using a wide variety of electronicstructure codes) 
 
-[Open Quantum Materials Database](http://oqmd.org
-) (Computed properties of mostly hypothetical structures carried out using a standard calculation scheme) 
+[Open Quantum Materials Database](http://oqmd.org) (Computed properties of mostly hypothetical structures carried out using a standard calculation scheme) 
 
 [NREL Materials Database](https://materials.nrel.gov) (Computed properties of materials for renewable-energy applications) 
 
@@ -497,100 +495,92 @@ Computed structures and properties:
 [ZINC](https://zinc15.docking.org) (Commercially available organic molecules in 2D and 3D formats) 
 
 
-Experimental structures and properties:
+**Experimental structures and properties**:
 
-ChEMBL (Bioactive molecules with drug-like properties) https://www.ebi.ac.uk/chembl
+[ChEMBL](https://www.ebi.ac.uk/chembl) (Bioactive molecules with drug-like properties)
 
-ChemSpider (Royal Society of Chemistry’s structure database, featuring calculated and experimental properties from a range of sources) https://chemspider.com
+[ChemSpider](https://chemspider.com) (Royal Society of Chemistry’s structure database, featuring calculated and experimental properties from a range of sources) 
 
-Citrination (Computed and experimental properties of materials) https://citrination.com
+[Citrination](https://citrination.com) (Computed and experimental properties of materials) 
 
-Crystallography Open Database (Structures of organic, inorganic, metal–organic compounds and minerals ) http://crystallography.net
+[Crystallography Open Database](http://crystallography.net) (Structures of organic, inorganic, metal–organic compounds and minerals ) 
 
-CSD (Repository for small-molecule organic and metal–organic crystal structures) https://www.ccdc.cam.ac.uk
+[CSD](https://www.ccdc.cam.ac.uk) (Repository for small-molecule organic and metal–organic crystal structures)
 
-ICSD (Inorganic Crystal Structure Database) https://icsd.fz-karlsruhe.de
+[ICSD](https://icsd.fz-karlsruhe.de) (Inorganic Crystal Structure Database) 
 
-MatNavi (Multiple databases targeting properties such as superconductivity and thermal conductance) http://mits.nims.go.jp
+[MatNavi](http://mits.nims.go.jp) (Multiple databases targeting properties such as superconductivity and thermal conductance) 
 
-MatWeb (Datasheets for various engineering materials, including thermoplastics, semiconductors and fibres) http://matweb.com
+[MatWeb](http://matweb.com) (Datasheets for various engineering materials, including thermoplastics, semiconductors and fibres) 
 
-NIST Chemistry WebBook (High-accuracy gas-phase thermochemistry and spectroscopic data) https://webbook.nist.gov/chemistry
+[NIST Chemistry WebBook](https://webbook.nist.gov/chemistry) (High-accuracy gas-phase thermochemistry and spectroscopic data) 
 
-NIST Materials Data Repository (Repository to upload materials data associated with specifc publications) https://materialsdata.nist.gov
+[NIST Materials Data Repository](https://materialsdata.nist.gov) (Repository to upload materials data associated with specifc publications) 
 
-PubChem (Biological activities of small molecules) https://pubchem.ncbi.nlm.nih.gov
-
-
-
-
-Open Software: 
-1. Publicly accessible learning resources and tools related to machine learning
+[PubChem]() (Biological activities of small molecules) 
 
 
 
-General-purpose machine-learning frameworks:
+#### Open Software: 
 
-Caret (Package for machine learning in R) https://topepo.github.io/caret
+##### Publicly accessible learning resources and tools related to machine learning
 
-Deeplearning4j  (Distributed deep learning for Java) https://deeplearning4j.org
+**General-purpose machine-learning frameworks**:
 
-H2O.ai (Machine-learning platform written in Java that can be imported as a Python or R library) https://h2o.ai
+[Caret](https://topepo.github.io/caret) (Package for machine learning in R) 
 
-Keras (High-level neural-network API written in Python) https://keras.io
+Deeplearning4j  (Distributed deep learning for Java) https://topepo.github.io/caret
 
-Mlpack (Scalable machine-learning library written in C++) https://mlpack.org
+[H2O.ai](https://h2o.ai) (Machine-learning platform written in Java that can be imported as a Python or R library) https://h2o.ai
 
-Scikit-learn (Machine-learning and data-mining member of the scikit family of toolboxes built around the SciPy Python library) http://scikit-learn.org
+[Keras](https://keras.io) (High-level neural-network API written in Python) 
 
-Weka (Collection of machine-learning algorithms and tasks written in Java) https://cs.waikato.ac.nz/ml/weka
+[Mlpack](https://mlpack.org) (Scalable machine-learning library written in C++) 
 
+[Scikit-learn](http://scikit-learn.org) (Machine-learning and data-mining member of the scikit family of toolboxes built around the SciPy Python library) 
 
-Machine-learning tools for molecules and materials
-
-Amp (Package to facilitate machine learning for atomistic calculations) https://bitbucket.org/andrewpeterson/amp
-
-ANI (Neural-network potentials for organic molecules with Python interface) https://github.com/isayev/ASE_ANI
-
-COMBO (Python library with emphasis on scalability and eficiency) https://github.com/tsudalab/combo
-
-DeepChem (Python library for deep learning of chemical systems) https://deepchem.io
-
-GAP (Gaussian approximation potentials) http://libatoms.org/Home/Software
-
-MatMiner (Python library for assisting machine learning in materials science) https://hackingmaterials.github.io/matminer
-
-NOMAD (Collection of tools to explore correlations in materials datasets) https://analytics-toolkit.nomad-coe.eu
-
-PROPhet (Code to integrate machine-learning techniques with quantum-chemistry approaches) https://github.com/biklooost/PROPhet
-
-TensorMol (Neural-network chemistry package) https://github.com/jparkhill/TensorMol
+[Weka](https://cs.waikato.ac.nz/ml/weka) (Collection of machine-learning algorithms and tasks written in Java) 
 
 
+**Machine-learning tools for molecules and materials**:
 
-Open education: 
-1. fast.ai (http://www.fast.ai) is a course that is “making neural nets uncool again” by making them accessible to a wider community of researchers. One of the advantages of this course is that users start to build working machine-learning models almost immediately. However, it is not for absolute beginners, requiring a working knowledge of computer programming and high-school-level mathematics.
+[Amp](https://bitbucket.org/andrewpeterson/amp) (Package to facilitate machine learning for atomistic calculations) 
 
-2. DataCamp (https://www.datacamp.com) ofers an excellent introduction to coding for data-driven science and covers many practical analysis tools relevant to chemical datasets. This course features interactive environments for developing and testing code and is suitable for non-coders because it teaches Python at the same time as machine learning.
+[ANI](https://github.com/isayev/ASE_ANI) (Neural-network potentials for organic molecules with Python interface)
 
-3. Academic MOOCs are useful courses for those wishing to get
-more involved with the theory and principles of artifcial intelligence
-and machine learning, as well as the practice. The Stanford MOOC
-(https://www.coursera.org/learn/machine-learning) is popular,
-with excellent alternatives available from sources such as https://
-www.edx.org (see, for example, ‘Learning from data (introductory
-machine learning)’) and https://www.udemy.com (search for
-‘Machine learning A–Z’). The underlying mathematics is the topic of
-a course from Imperial College London (https://www.coursera.org/
-specializations/mathematics-machine-learning).
+[COMBO](https://github.com/tsudalab/combo) (Python library with emphasis on scalability and eficiency)
 
-4. Many machine-learning professionals run informative blogs
-and podcasts that deal with specifc aspects of machine-learning
-practice. These are useful resources for general interest as well as
-for broadening and deepening knowledge. There are too many
-to provide an exhaustive list here, but we recommend https://
-machinelearningmastery.com and http://lineardigressions.com as
-a starting point.
+[DeepChem](https://deepchem.io) (Python library for deep learning of chemical systems) 
+
+[GAP](http://libatoms.org/Home/Software) (Gaussian approximation potentials) 
+
+[MatMiner](https://hackingmaterials.github.io/matminer) (Python library for assisting machine learning in materials science) 
+
+[NOMAD](https://analytics-toolkit.nomad-coe.eu) (Collection of tools to explore correlations in materials datasets) 
+
+[PROPhet](https://github.com/biklooost/PROPhet) (Code to integrate machine-learning techniques with quantum-chemistry approaches) 
+
+[TensorMol](https://github.com/jparkhill/TensorMol) (Neural-network chemistry package) 
+
+
+#### Open education: 
+
+* [fast.ai](http://www.fast.ai) is a course that is “making neural nets uncool again” by making them accessible to a wider community of researchers. 
+One of the advantages of this course is that users start to build working machine-learning models almost immediately. However, it is not for absolute
+beginners, requiring a working knowledge of computer programming and high-school-level mathematics.
+
+* [DataCamp](https://www.datacamp.com) ofers an excellent introduction to coding for data-driven science and covers many practical analysis tools 
+relevant to chemical datasets. This course features interactive environments for developing and testing code and is suitable for non-coders because it
+teaches Python at the same time as machine learning.
+
+* Academic MOOCs are useful courses for those wishing to get more involved with the theory and principles of artifcial intelligence and machine learning,
+as well as the practice. The [Stanford MOOC](https://www.coursera.org/learn/machine-learning) is popular, with excellent alternatives available from 
+sources such as [edx](https://www.edx.org) (see, for example, ‘Learning from data (introductory machine learning)’) and [udemy](https://www.udemy.com)
+(search for ‘Machine learning A–Z’). The underlying mathematics is the topic of a course from Imperial College London [coursera](https://www.coursera.org/ specializations/mathematics-machine-learning).
+
+* Many machine-learning professionals run informative blogs and podcasts that deal with specifc aspects of machine-learning practice. These are useful 
+resources for general interest as well as for broadening and deepening knowledge. There are too many to provide an exhaustive list here, but we recommend
+[machinelearningmastery](https://machinelearningmastery.com) and [lineardigression](http://lineardigressions.com )as a starting point.
 
 [About](https://www.computational-chemistry-workshop.org/homepage-2017) |
 [Committee](https://www.computational-chemistry-workshop.org/committee-2017) |
