@@ -173,7 +173,8 @@ Fundamental topics to be covered include basic machine learning models such as *
      Here n is the number of training points you wish to extract from the full dataset.
      
    _4_.  Edit the 2nd, 3rd, 4th, and 5th lines in the file "INPUT.txt" if you want to change the calculation type, number of conjugate gradient steps, checkpointing frequency of 
-         weights, and number of conjugate gradient line-minmization steps. As to the calculation type, '1' indicates caculating neural network parameters starting from scratch, and '-1' calculating neural network parameters starting from an old set contained in file "weight.txt", and '0' means validation calculation of the 
+         weights, and number of conjugate gradient line-minmization steps. As to the calculation type, '1' indicates caculating neural network parameters starting from scratch, and '-1' calculating neural network parameters starting from an old set contained in file "weight.txt", and '0' means validation calculation of the neural network.
+
 
 ### Deployment
 
