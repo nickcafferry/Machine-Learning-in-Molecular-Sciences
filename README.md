@@ -171,7 +171,7 @@ _2._ Change Command-Line-Interface to the directory created by unpacking and com
 
      Here n is the number of training points you wish to extract from the full dataset.
      
-  _4_. Edit the 2nd, 3rd, 4th, and 5th lines in the file "INPUT.txt" if you want to change the calculation type, number of conjugate gradient steps, checkpointing frequency of weights, and number of conjugate gradient line-minmization steps. 
+  _4_.  Edit the 2nd, 3rd, 4th, and 5th lines in the file "INPUT.txt" if you want to change the calculation type, number of conjugate gradient steps, checkpointing frequency of weights, and number of conjugate gradient line-minmization steps. 
 
 ### Deployment
 
