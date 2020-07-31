@@ -13,7 +13,9 @@ Fundamental topics to be covered include basic machine learning models such as *
 .. toctree::
     :maxdepth: 2
     :caption: Introduction_to_Machine_Learning
-
+    
+    Introduction_to_Machine_Learning/index
+    
 .. toctree::
     :maxdepth: 2
     :caption: Kernel-based_Regression
