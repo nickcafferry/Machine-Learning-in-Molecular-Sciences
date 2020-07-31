@@ -12,8 +12,70 @@ Fundamental topics to be covered include basic machine learning models such as *
 
 
 Introduction to Machine Learning
---------------------------------
+=================================
 
+Kernel-based Regression
+=================================
+
+Dimensional Reduction, Feature Selection, and Clustering techniques
+=================================
+
+Introducton to Neural Networks
+=================================
+
+Practical Session: Clustering with Feature Selection and Validation
+=================================
+
+Random Forests
+==============
+
+Learning Curves, Representations, and Training Sets
+====================================================
+
+Review of Electronic Structure, Atomic, Molecular and Crystal Representations
+=============================================================================
+
+Practical Session: Learning Curves
+=================================
+
+Predicting Properties of Molecules and Materials
+================================================
+
+Parameter Learning and Delta Learning
+=====================================
+
+Learning Electronic Densities and ML Models of Crystal Properties
+==================================================================
+
+Practical Session: Machine Learning and Property Prediction
+===========================================================
+
+Machine Learning of Potential Energy Surfaces
+=============================================
+
+Machine Learning Based Enhanced Sampling
+=======================================
+
+Machine Learning of Free Energy Surfaces
+========================================
+
+Cluster-based Analysis of Molecular Simulations
+===============================================
+
+Practical Session: Neural Network Learning of Free Energy Surfaces
+==================================================================
+
+Development of Protein-ligand Scoring Functions
+===============================================
+
+Machine Learning in Structural Biology
+=====================================
+
+Practical Session: Random Forests and Scoring Functions
+========================================================
+
+Practical Session: Machine Learning for Structural Bioinformatics
+=================================================================
 
 External Links
 ===========================
