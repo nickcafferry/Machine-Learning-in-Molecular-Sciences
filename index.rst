@@ -10,72 +10,102 @@ The NYU-ECNU Center for Computational Chemistry at `New York University Shanghai
 
 Fundamental topics to be covered include basic machine learning models such as *kernel methods* and *neural networks optimization schemes*, *parameter learning* and *delta learning paradigms*, *clustering*, and *decision trees*.  Application areas will feature machine learning models for representing and predicting properties of individual molecules and condensed phases, learning algorithms for bypassing explicit quantum chemical and statistical mechanical calculations, and techniques applicable to biomolecular structure prediction, bioinformatics, protein-ligand binding, materials and molecular design and various others.
 
+.. toctree::
+    :maxdepth: 2
+    :caption: Introduction_to_Machine_Learning
 
-Introduction to Machine Learning
-=================================
+.. toctree::
+    :maxdepth: 2
+    :caption: Kernel-based_Regression
 
-Kernel-based Regression
-=================================
+.. toctree::
+    :maxdepth: 2
+    :caption: Dimensional_Reduction_Feature Selection_and_Clustering_techniques
 
-Dimensional Reduction, Feature Selection, and Clustering techniques
-=================================
+.. toctree::
+    :maxdepth: 2
+    :caption: Introduction_to_Neural_Networks
 
-Introducton to Neural Networks
-=================================
 
-Practical Session: Clustering with Feature Selection and Validation
-=================================
+.. toctree::
+    :maxdepth: 2
+    :caption: Practical_Session_Clustering_with_Feature_Selection_and_Validation
 
-Random Forests
-==============
 
-Learning Curves, Representations, and Training Sets
-====================================================
+.. toctree::
+    :maxdepth: 2
+    :caption: Random_Forests
 
-Review of Electronic Structure, Atomic, Molecular and Crystal Representations
-=============================================================================
+.. toctree::
+    :maxdepth: 2
+    :caption: Learning_Curves_Representations_and_Training_Sets
 
-Practical Session: Learning Curves
-=================================
 
-Predicting Properties of Molecules and Materials
-================================================
+.. toctree::
+    :maxdepth: 2
+    :caption: Learning_Curves_Representations_and_Training_Sets
 
-Parameter Learning and Delta Learning
-=====================================
 
-Learning Electronic Densities and ML Models of Crystal Properties
-==================================================================
+.. toctree::
+    :maxdepth: 2
+    :caption: Review_of_Electronic_Structure_Atomic_Molecular_and_Crystal_Representations
 
-Practical Session: Machine Learning and Property Prediction
-===========================================================
+.. toctree::
+    :maxdepth: 2
+    :caption: Practical_Session_Learning_Curves
 
-Machine Learning of Potential Energy Surfaces
-=============================================
+.. toctree::
+    :maxdepth: 2
+    :caption: Predicting_Properties_of_Molecules_and_Materials
 
-Machine Learning Based Enhanced Sampling
-=======================================
+.. toctree::
+    :maxdepth: 2
+    :caption: Parameter_Learning_and_Delta_Learning
 
-Machine Learning of Free Energy Surfaces
-========================================
 
-Cluster-based Analysis of Molecular Simulations
-===============================================
+.. toctree::
+    :maxdepth: 2
+    :caption: Learning_Electronic_Densities_and_ML_Models_of_Crystal_Properties
 
-Practical Session: Neural Network Learning of Free Energy Surfaces
-==================================================================
+.. toctree::
+    :maxdepth: 2
+    :caption: Practical_Session_Machine_Learning_and_Property_Prediction
 
-Development of Protein-ligand Scoring Functions
-===============================================
+.. toctree::
+    :maxdepth: 2
+    :caption: Machine_Learning_of_Potential_Energy_Surfaces
 
-Machine Learning in Structural Biology
-=====================================
+.. toctree::
+    :maxdepth: 2
+    :caption: Machine_Learning_Based_Enhanced_Sampling
 
-Practical Session: Random Forests and Scoring Functions
-========================================================
+.. toctree::
+    :maxdepth: 2
+    :caption: Machine Learning of Free Energy Surfaces
 
-Practical Session: Machine Learning for Structural Bioinformatics
-=================================================================
+.. toctree::
+    :maxdepth: 2
+    :caption: Cluster-based Analysis of Molecular Simulations
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Practical Session: Neural Network Learning of Free Energy Surfaces
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Development of Protein-ligand Scoring Functions
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Machine Learning in Structural Biology
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Practical Session: Random Forests and Scoring Functions
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Practical Session: Machine Learning for Structural Bioinformatics
 
 External Links
 ===========================
