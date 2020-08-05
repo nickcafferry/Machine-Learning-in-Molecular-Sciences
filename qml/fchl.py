@@ -555,4 +555,3 @@ def get_atomic_symmetric_kernels(A, sigmas, \
 
     return fget_atomic_symmetric_kernels_fchl(A, neighbors1, sigmas, \
                 na1, nsigmas, three_body_width, two_body_width, cut_start, cut_distance, fourier_order, pd, two_body_scaling, three_body_scaling, doalchemy, two_body_power, three_body_power)
-© 2020 GitHub, Inc.
