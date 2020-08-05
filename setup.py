@@ -167,7 +167,7 @@ def setup_pepytools():
         author_email=__email__,
         platforms = 'Any',
         description = __description__,
-        long_description = readme(),
+#        long_description = readme(),
         keywords = ['Machine Learning', 'Quantum Chemistry'],
         classifiers = [],
         url = __url__,
