@@ -1,4 +1,4 @@
-qml
+qml --user -U  --global-option="build" --global-option="--compiler=intelem" --global-option="--fcompiler=intelem"
 numpy==1.19.0
 scipy==1.5.1
 matplotlib==3.3.0
