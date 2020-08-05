@@ -9,9 +9,9 @@ with open('README.rst') as readme_file:
 #with open('HISTORY.rst') as history_file:
 #    history = history_file.read()
 
-#requirements = [
-#    'MLMoleSci>=0.3.0'
-#]
+requirements = [
+    "gfortran", "libblas-dev","liblapack-dev", "git"
+]
 
 #test_requirements = [
 #    'tox',
