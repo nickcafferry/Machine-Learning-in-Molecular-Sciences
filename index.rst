@@ -116,3 +116,6 @@ External Links
 * :ref:`search`
 
 .. automodule:: qml
+    :members:
+    :undoc-members:
+    :show-inheritance:
