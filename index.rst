@@ -114,3 +114,5 @@ External Links
 
 * :ref:`genindex`
 * :ref:`search`
+
+.. automodule:: qml
