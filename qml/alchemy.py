@@ -174,6 +174,7 @@ def gen_QNum_distances(emax=100, n_width = 0.001, m_width = 0.001, l_width = 0.0
 
 def periodic_distance(a, b, r_width, c_width):
     """ Calculate stochiometric distance
+
         a -- nuclear charge of element a
         b -- nuclear charge of element b
         r_width -- sigma in row-direction
@@ -192,6 +193,7 @@ def periodic_distance(a, b, r_width, c_width):
 
 def gen_pd(emax=100, r_width=0.001, c_width=0.001):
     """ Generate stochiometric ditance matrix
+
         emax -- Largest element
         r_width -- sigma in row-direction
         c_width -- sigma in column direction

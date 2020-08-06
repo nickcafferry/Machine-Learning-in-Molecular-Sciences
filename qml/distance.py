@@ -30,12 +30,15 @@ def manhattan_distance(A, B):
         Numpy arrays of representations.
     
             :math:`D_{ij} = \\|A_i - B_j\\|_1`
+
         Where :math:`A_{i}` and :math:`B_{j}` are representation vectors.
         D is calculated using an OpenMP parallel Fortran routine.
+
         :param A: 2D array of descriptors - shape (N, representation size).
         :type A: numpy array
         :param B: 2D array of descriptors - shape (M, representation size).
         :type B: numpy array
+
         :return: The Manhattan-distance matrix.
         :rtype: numpy array
     """
@@ -58,9 +61,12 @@ def manhattan_distance(A, B):
 def l2_distance(A, B):
     """ Calculates the L2 distances, D, between two
         Numpy arrays of representations.
+
             :math:`D_{ij} = \\|A_i - B_j\\|_2`
+
         Where :math:`A_{i}` and :math:`B_{j}` are representation vectors.
         D is calculated using an OpenMP parallel Fortran routine.
+
         :param A: 2D array of descriptors - shape (N, representation size).
         :type A: numpy array
         :param B: 2D array of descriptors - shape (M, representation size).
@@ -92,14 +98,17 @@ def p_distance(A, B, p = 2):
         E.g. ``p = 1.0`` and ``p = 2.0`` with yield the Manhattan and L2 distances, respectively.
     
             .. math:: D_{ij} = \|A_i - B_j\|_p
+
         Where :math:`A_{i}` and :math:`B_{j}` are representation vectors.
         D is calculated using an OpenMP parallel Fortran routine.
+
         :param A: 2D array of descriptors - shape (N, representation size).
         :type A: numpy array
         :param B: 2D array of descriptors - shape (M, representation size).
         :type B: numpy array
         :param p: The norm order
         :type p: float
+
         :return: The distance matrix.
         :rtype: numpy array
     """

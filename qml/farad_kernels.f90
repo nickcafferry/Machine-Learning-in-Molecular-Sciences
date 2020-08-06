@@ -986,4 +986,3 @@ subroutine fget_global_kernels_arad(q1, q2, z1, z2, n1, n2, sigmas, nm1, nm2, ns
     deallocate(sin2)
 
 end subroutine fget_global_kernels_arad
-© 2020 GitHub, Inc.

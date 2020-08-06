@@ -45,6 +45,7 @@ def getAngle(sp,norms):
 
 def generate_arad_representation(coordinates, nuclear_charges, size=23, cut_distance=5.0):
     """ Generates a representation for the ARAD kernel module.
+
     :param coordinates: Input coordinates.
     :type coordinates: numpy array
     :param nuclear_charges: List of nuclear charges.
@@ -138,13 +139,16 @@ def get_global_kernels_arad(X1, X2, sigmas,
     """ Calculates the global Gaussian kernel matrix K for atomic ARAD
         descriptors for a list of different sigmas. Each kernel element
         is the sum of all kernel elements between pairs of atoms in two molecules.
+
         K is calculated using an OpenMP parallel Fortran routine.
+
         :param X1: ARAD descriptors for molecules in set 1.
         :type X1: numpy array
         :param X2: Array of ARAD descriptors for molecules in set 2.
         :type X2: numpy array
         :param sigmas: List of sigmas for which to calculate the Kernel matrices.
         :type sigmas: list
+
         :return: The kernel matrices for each sigma - shape (number_sigmas, number_molecules1, number_molecules2)
         :rtype: numpy array
     """
@@ -182,11 +186,14 @@ def get_global_symmetric_kernels_arad(X1, sigmas,
     """ Calculates the global Gaussian kernel matrix K for atomic ARAD
         descriptors for a list of different sigmas. Each kernel element
         is the sum of all kernel elements between pairs of atoms in two molecules.
+
         K is calculated using an OpenMP parallel Fortran routine.
+
         :param X1: ARAD descriptors for molecules in set 1.
         :type X1: numpy array
         :param sigmas: List of sigmas for which to calculate the Kernel matrices.
         :type sigmas: list
+
         :return: The kernel matrices for each sigma - shape (number_sigmas, number_molecules1, number_molecules1)
         :rtype: numpy array
     """
@@ -212,13 +219,16 @@ def get_local_kernels_arad(X1, X2, sigmas,
     """ Calculates the Gaussian kernel matrix K for atomic ARAD
         descriptors for a list of different sigmas. Each kernel element
         is the sum of all kernel elements between pairs of atoms in two molecules.
+
         K is calculated using an OpenMP parallel Fortran routine.
+
         :param X1: ARAD descriptors for molecules in set 1.
         :type X1: numpy array
         :param X2: Array of ARAD descriptors for molecules in set 2.
         :type X2: numpy array
         :param sigmas: List of sigmas for which to calculate the Kernel matrices.
         :type sigmas: list
+
         :return: The kernel matrices for each sigma - shape (number_sigmas, number_molecules1, number_molecules2)
         :rtype: numpy array
     """
@@ -256,11 +266,14 @@ def get_local_symmetric_kernels_arad(X1, sigmas,
     """ Calculates the Gaussian kernel matrix K for atomic ARAD
         descriptors for a list of different sigmas. Each kernel element
         is the sum of all kernel elements between pairs of atoms in two molecules.
+
         K is calculated using an OpenMP parallel Fortran routine.
+
         :param X1: ARAD descriptors for molecules in set 1.
         :type X1: numpy array
         :param sigmas: List of sigmas for which to calculate the Kernel matrices.
         :type sigmas: list
+
         :return: The kernel matrices for each sigma - shape (number_sigmas, number_molecules1, number_molecules1)
         :rtype: numpy array
     """
@@ -286,13 +299,16 @@ def get_atomic_kernels_arad(X1, X2, sigmas,
     """ Calculates the Gaussian kernel matrix K for atomic ARAD
         descriptors for a list of different sigmas. For atomic properties, e.g. 
         partial charges, chemical shifts, etc.
+
         K is calculated using an OpenMP parallel Fortran routine.
+
         :param X1: ARAD descriptors for molecules in set 1. shape=(number_atoms,5,size)
         :type X1: numpy array
         :param X2: ARAD descriptors for molecules in set 1. shape=(number_atoms,5,size)
         :type X2: numpy array
         :param sigmas: List of sigmas for which to calculate the Kernel matrices.
         :type sigmas: list
+
         :return: The kernel matrices for each sigma - shape (number_sigmas, number_atoms1, number_atoms2)
         :rtype: numpy array
     """
@@ -329,11 +345,14 @@ def get_atomic_symmetric_kernels_arad(X1, sigmas,
     """ Calculates the Gaussian kernel matrix K for atomic ARAD
         descriptors for a list of different sigmas. For atomic properties, e.g. 
         partial charges, chemical shifts, etc.
+
         K is calculated using an OpenMP parallel Fortran routine.
+
         :param X1: ARAD descriptors for molecules in set 1. shape=(number_atoms,5,size)
         :type X1: numpy array
         :param sigmas: List of sigmas for which to calculate the Kernel matrices.
         :type sigmas: list
+
         :return: The kernel matrices for each sigma - shape (number_sigmas, number_atoms1, number_atoms1)
         :rtype: numpy array
     """

@@ -24,6 +24,7 @@
 """
 QML main module
 ===============
+
 Provides
   1. Compound-class
   2. representations
@@ -43,3 +44,4 @@ __version__ = "0.2.1"
 __maintainer__ = "Anders S. Christensen"
 __email__ = "andersbiceps@gmail.com"
 __status__ = "Beta"
+
