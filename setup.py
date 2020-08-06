@@ -1,28 +1,7 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 import sys
 from numpy.distutils.core import Extension, setup
 
 from mkldiscover import mkl_exists
-
-from setuptools import setup
-
-with open('README.rst') as readme_file:
-    readme = readme_file.read()
-
-#with open('HISTORY.rst') as history_file:
-#    history = history_file.read()
-
-#requirements = [
-#    "gfortran", "libblas-dev","liblapack-dev", "git"
-#]
-
-#test_requirements = [
-#    'tox',
-#    'flake8'
-#]
-
 
 __author__ = "Anders S. Christensen"
 __copyright__ = "Copyright 2016"
@@ -167,7 +146,7 @@ def setup_pepytools():
         author_email=__email__,
         platforms = 'Any',
         description = __description__,
-#        long_description = readme(),
+        long_description = readme(),
         keywords = ['Machine Learning', 'Quantum Chemistry'],
         classifiers = [],
         url = __url__,
