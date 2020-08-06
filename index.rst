@@ -115,7 +115,7 @@ External Links
 * :ref:`genindex`
 * :ref:`search`
 
-.. automodule:: qml
+.. automodule:: xgboost
     :members:
     :undoc-members:
     :show-inheritance:
