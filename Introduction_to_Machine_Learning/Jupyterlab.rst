@@ -1,4 +1,3 @@
-# %load outputfile.rst
 .. raw:: html
 
    <div id="notebook" class="border-box-sizing" tabindex="-1">
