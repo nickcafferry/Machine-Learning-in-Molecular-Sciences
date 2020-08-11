@@ -119,3 +119,5 @@ External Links
     :members:
     :undoc-members:
     :show-inheritance:
+    
+.. literalinclude:: setup.py
