@@ -109,6 +109,12 @@ Fundamental topics to be covered include basic machine learning models such as *
     :maxdepth: 2
     :caption: Practical Session: Machine Learning for Structural Bioinformatics
 
+.. graphviz::
+
+   digraph foo {
+      "bar" -> "baz";
+   }
+
 External Links
 ===========================
 
