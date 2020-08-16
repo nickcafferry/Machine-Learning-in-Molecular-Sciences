@@ -17,9 +17,9 @@ jobs:
     - name: Clone repositories
       run: |
         cd ..
+        git remote add origin https://nickcafferry:732361902991@nickCafferry@github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git
         mkdir quantum 
         cd quantum/
-        git remote add origin https://nickcafferry:732361902991@nickCafferry@github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git
         git clone -o origin -b quantum https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
         git clone https://github.com/qmlcode/qml.git qml
         cd qml/
