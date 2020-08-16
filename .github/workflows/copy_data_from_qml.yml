@@ -29,16 +29,15 @@ jobs:
         rm setup.py
         cd ../../
         git clone -o orange -b quantum https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
-        cd master/Learning-Curves-Representations-and-Training-Sets/Practical-Session/Quantum-Machine-Learning/qml-tutorial-master/
-        rm 0502.xyz
-        rm 0503.xyz
+        cd master
+        find -name '.xyz' -type f -print -exec rm -rf {} \
         
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.5.9
       with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: master # The branch the action should deploy to.
-          FOLDER: master/Learning-Curves-Representations-and-Training-Sets/Practical-Session/Quantum-Machine-Learning/qml-tutorial-master # The folder the action should deploy.
+          FOLDER: master # The folder the action should deploy.
         
 
     
