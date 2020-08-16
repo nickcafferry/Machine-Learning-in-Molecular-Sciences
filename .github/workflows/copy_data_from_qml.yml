@@ -32,7 +32,7 @@ jobs:
         cd ../master/
         git remote -v
         cp -r ../qml/tests/qm7/. ./Learning-Curves-Representations-and-Training-Sets/Practical-Session/Quantum-Machine-Learning/qml-tutorial-master/qm7
-        git push origin quantum/master: origin/master
+        git push origin master: origin/master
         
     
 
