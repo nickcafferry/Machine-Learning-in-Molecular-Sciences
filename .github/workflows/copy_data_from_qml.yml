@@ -25,6 +25,11 @@ jobs:
         git rm -rf 0509.xyz
         git rm -rf 0510.xyz
         git rm -rf 0511.xyz
+        git commit -m "remove 0504.xyz"
+        git commit -m "remove 0505.xyz"
+        git commit -m "remove 0506.xyz"
+        git commit -m "remove 0507.xyz"
+        git commit -m "remove 0508.xyz"
         ls
         echo "------------------------------------------------------\n"
         
