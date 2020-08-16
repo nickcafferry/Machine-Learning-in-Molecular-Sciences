@@ -19,8 +19,8 @@ jobs:
         git config --global user.name "nickcafferry"
         git rm -rf 0505.xyz
         git commit -m "remove 0505.xyz"
-        git remote add origin https://nickcafferry:732361902991@nickCafferry@github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git
-        git push origin master
+        git remote add orange https://nickcafferry:732361902991@nickCafferry@github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git
+        git push orange master
         ls
         echo "------------------------------------------------------\n"
         
