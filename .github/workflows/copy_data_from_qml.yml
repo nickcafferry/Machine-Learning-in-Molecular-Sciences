@@ -19,7 +19,6 @@ jobs:
         git remote add orange https://nickcafferry:732361902991@nickcafferry@github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git
         mkdir quantum 
         cd quantum/
-        git clone -b quantum https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
         git clone https://github.com/qmlcode/qml.git qml
         cd qml/
         rm -rf qml
@@ -29,11 +28,12 @@ jobs:
         rm mkldiscover.py
         rm requirements.txt
         rm setup.py
-        cd ../master/
+        cd ../../
+        git clone -b quantum https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
         git remote -v
         git branch
-        cp -r ../qml/tests/qm7/. ./Learning-Curves-Representations-and-Training-Sets/Practical-Session/Quantum-Machine-Learning/qml-tutorial-master/qm7
-        git push origin quantum : origin/master
+        cp -r quantum/qml/tests/qm7/. master/Learning-Curves-Representations-and-Training-Sets/Practical-Session/Quantum-Machine-Learning/qml-tutorial-master/qm7
+        git push orange quantum : orange/master
 
     
 
