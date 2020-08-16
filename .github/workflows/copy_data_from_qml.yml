@@ -11,7 +11,6 @@ jobs:
 
     - name: Clone repositories
       run: |
-        cd 
         ls
         git init
         git config --global user.email "ucecwme@ucl.ac.uk"
