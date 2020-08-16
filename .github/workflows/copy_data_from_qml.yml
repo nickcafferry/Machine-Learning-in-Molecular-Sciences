@@ -16,10 +16,6 @@ jobs:
 
     - name: Clone repositories
       run: |
-        mkdir rest
-        cd rest/
-        git clone https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
-        cd master
         ls
         find . -name '*.xyz' | xargs rm -rf
         ls
@@ -29,7 +25,7 @@ jobs:
       with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: master # The branch the action should deploy to.
-          FOLDER: rest # The folder the action should deploy.
+          FOLDER: .  # The folder the action should deploy.
         
 
     
