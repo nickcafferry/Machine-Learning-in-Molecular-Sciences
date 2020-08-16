@@ -18,7 +18,7 @@ jobs:
       run: |
         mkdir rest
         cd rest/
-        git clone -b quantum https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
+        git clone -b master https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
         cd master
         ls
         find . -name '.xyz' | xargs rm -rf
