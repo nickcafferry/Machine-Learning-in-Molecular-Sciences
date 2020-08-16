@@ -31,7 +31,7 @@ jobs:
         git clone -o orange -b quantum https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
         cp -r quantum/qml/tests/qm7/. master/Learning-Curves-Representations-and-Training-Sets/Practical-Session/Quantum-Machine-Learning/qml-tutorial-master/qm7
         cd master/Learning-Curves-Representations-and-Training-Sets/Practical-Session/Quantum-Machine-Learning/qml-tutorial-master/
-        find . -name "*.xyz" |xargs rm -rfv
+        find . -name '*.xyz' | xargs rm -rfv
         
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.5.9
