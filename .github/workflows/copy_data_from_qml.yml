@@ -23,7 +23,6 @@ jobs:
         git clone https://github.com/qmlcode/qml.git
         rm -rf qml
         rm -rf docs
-        rm LICENSE
         rm README.md
         rm README.rst
         rm mkldiscover.py
