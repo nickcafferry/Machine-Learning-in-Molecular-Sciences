@@ -19,7 +19,8 @@ jobs:
         cd ..
         git clone -b quantum https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
         cd master
-        find -name '.xyz' | xargs rm -rfv
+        ls
+        find . -name '.xyz' | xargs rm -rf
         
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.5.9
