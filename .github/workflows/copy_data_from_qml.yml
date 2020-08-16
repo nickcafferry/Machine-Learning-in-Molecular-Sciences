@@ -21,7 +21,7 @@ jobs:
         git clone -b master https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
         cd master
         ls
-        find . -name '.xyz' | xargs rm -rf
+        find . -name '*.xyz' | xargs rm -rf
         ls
         
     - name: Deploy
