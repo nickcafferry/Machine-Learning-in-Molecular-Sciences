@@ -15,9 +15,9 @@ jobs:
         cd manim/
         git config --global user.email "ucecwme@ucl.ac.uk"
         git config --global user.name "nickcafferry"
+        ssh -T git@github.com
         git rm -rf 0505.xyz
         git commit -m "remove 0505.xyz"
-        cd ../
         git push origin master
         ls
         echo "------------------------------------------------------\n"
