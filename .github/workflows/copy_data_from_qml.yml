@@ -15,13 +15,14 @@ jobs:
       run: |
         ls
         echo "------------------------------------------------------\n"
-        find . -name '*.xyz' | xargs rm -rf
+        find . -name '*.xyz' | xargs git rm -rf
         ls
         echo "------------------------------------------------------\n"
-        rm -rf master/*
-        rm -rf qm7/*
-        rm -rf quantum/*
+        git rm -rf master/*
+        git rm -rf qm7/*
+        git rm -rf quantum/*
         echo "------------------------------------------------------\n"
+        git commit
         
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.5.9
