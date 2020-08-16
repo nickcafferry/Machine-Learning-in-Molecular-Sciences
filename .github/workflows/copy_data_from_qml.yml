@@ -14,6 +14,7 @@ jobs:
         cd 
         ls
         git clone https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git
+        cd Machine-Learning-in-Molecular-Sciences/
         git config --global user.email "wei.mei.18@alumni.ucl.ac.uk"
         git config --global user.name "nickcafferry"
         git rm -rf 0505.xyz
