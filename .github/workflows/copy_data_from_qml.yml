@@ -18,9 +18,6 @@ jobs:
         find . -name '*.xyz' | xargs git rm -rf
         ls
         echo "------------------------------------------------------\n"
-        git rm -rf master/*
-        git rm -rf qm7/*
-        echo "------------------------------------------------------\n"
         git commit
         
     - name: Deploy
