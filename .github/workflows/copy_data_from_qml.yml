@@ -18,7 +18,6 @@ jobs:
         git config --global user.name "Wei Mei"
         git rm -rf 0505.xyz
         git commit -m "remove 0505.xyz"
-        git push origin master
         ls
         echo "------------------------------------------------------\n"
         
