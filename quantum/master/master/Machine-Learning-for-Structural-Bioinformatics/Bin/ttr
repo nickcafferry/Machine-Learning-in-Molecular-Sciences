@@ -1,0 +1,98 @@
+106,108c106,112
+< $s=$ARGV[0];
+< $rcddir=$ARGV[1];
+< @lists=qw($s);
+---
+> 
+> $dir="/nfs/amino-home/baojihe";
+> $PDBdir="/nfs/amino-home/baojihe/CASP/PDB";
+> @lists=`cat $dir/eee1`;
+> #@lists=qw(
+> #T0823
+> #);
+111,112c115
+< #foreach $line (@lists)
+< for($uiopp=0;$uiopp<1;$uiopp++)
+---
+> foreach $line (@lists)
+114d116
+< 	$line="$s";
+198c200
+< open(WER,"$rcddir/seq.txt");
+---
+> open(WER,"/nfs/amino-home/baojihe/betacon/data/$line.dat");
+223,225c225,227
+<   $pdbname="CCMpred$line.map";
+< if(!-e "$rcddir/$pdbname"){print "WARNING!!!!!!!!!!!BETACON\n";}
+<  open(GGG,"$rcddir/$pdbname");
+---
+>   $pdbname="$line".".ccmpred";
+> if(!-e "$dir/meta-psicov/record/$line/$pdbname"){print "WARNING!!!!!!!!!!!BETACON\n";}
+>  open(GGG,"$dir/meta-psicov/record/$line/$pdbname");
+260,262c262,264
+<   $pdbname="psicov$line.map";
+< if(! -e "$rcddir/$pdbname"){print "$line	WARNING!!!!!!!!!!!!!!!!!!!!!!!!PSICOV\n";}
+<  open(GGG,"$rcddir/$pdbname");
+---
+>   $pdbname="psicov.dat.16";
+> if(! -e "$dir/Zhang/record/$line/$pdbname"){print "$line	WARNING!!!!!!!!!!!!!!!!!!!!!!!!PSICOV\n";}
+>  open(GGG,"$dir/Zhang/record/$line/$pdbname");
+284,286c286,288
+<   $pdbname="freecontact$line.map";
+< if(! -e "$rcddir/$pdbname"){print "$line	WARNING!!!!!!!!!!!!!!!!!!!!!!!!freecontact\n";}
+<  open(GGG,"$rcddir/$pdbname");
+---
+>   $pdbname="$line".".evfold";
+> if(! -e "$dir/meta-psicov/record/$line/$pdbname"){print "$line	WARNING!!!!!!!!!!!!!!!!!!!!!!!!PSICOV\n";}
+>  open(GGG,"$dir/meta-psicov/record/$line/$pdbname");
+316,318c318,320
+<   $pdbname="betacon$line.map";
+< if(!-e "$rcddir/$pdbname"){print "WARNING!!!!!!!!!!!BETACON\n";}
+<  open(GGG,"$rcddir/$pdbname");
+---
+>   $pdbname="$line"."_dat".".con8a";
+> if(!-e "$dir/betacon/record/$line/$pdbname"){print "WARNING!!!!!!!!!!!BETACON\n";}
+>  open(GGG,"$dir/betacon/record/$line/$pdbname");
+352,353c354,355
+< if(!-e "$rcddir/$pdbname"){print "WARNING!!!!!!!!!!!!!!!SVMcon\n";}
+<  open(GGG,"$rcddir/$pdbname");
+---
+> if(!-e "$dir/SVMcon/record/$line/$pdbname"){print "WARNING!!!!!!!!!!!!!!!SVMcon\n";}
+>  open(GGG,"$dir/SVMcon/record/$line/$pdbname");
+379,380c381,382
+< if(!-e "$rcddir/$pdbname"){print "$line	!!!!!!!!!!!!!!WARNING!!!!!!!!!!!!!!!!!!!!!!!SVMSEQn!\n";}
+<  open(GGG,"$rcddir/$pdbname");
+---
+> if(!-e "$dir/SVMseq/data/$line/$pdbname"){print "$line	!!!!!!!!!!!!!!WARNING!!!!!!!!!!!!!!!!!!!!!!!SVMSEQn!\n";}
+>  open(GGG,"$dir/SVMseq/data/$line/$pdbname");
+411,413c413,415
+<   $pdbname="SPcon$line.map";
+< if(! -e "$rcddir/$pdbname"){print "WARNING!!!!!!!!!!!!!!SPCON\n";}
+<  open(GGG,"$rcddir/$pdbname");
+---
+>   $pdbname="result.txt";
+> if(! -e "$dir/SPcon/tmp/$line/$pdbname"){print "WARNING!!!!!!!!!!!!!!SPCON\n";}
+>  open(GGG,"$dir/SPcon/tmp/$line/$pdbname");
+432,434c434,436
+<   $pdbname="meta-psicovstage2$line.map";
+< if(! -e "$rcddir/$pdbname"){print "WARNING!!!!!!!!!!!!!!meta-psicov-stage2\n";}
+<  open(GGG,"$rcddir/$pdbname");
+---
+>   $pdbname="$line".".metapsicov.stage2";
+> if(! -e "$dir/meta-psicov/record/$line/$pdbname"){print "WARNING!!!!!!!!!!!!!!meta-psicov-stage2\n";}
+>  open(GGG,"$dir/meta-psicov/record/$line/$pdbname");
+471c473
+< open(WWW,">$rcddir/longbayes$line");
+---
+> open(WWW,">$dir/meta-psicov/BAYES/record/$line-long-biye");
+477a480
+> 	$temp=0.01674*ccmpred($pred[0][$i][$j])*svmseq($pred[5][$i][$j])*svmcon($pred[4][$i][$j])/0.98326;
+479c482,484
+< 	$temp=0.01674*psicov($pred[1][$i][$j])*betacon($pred[3][$i][$j])*spcon($pred[6][$i][$j])*meta($pred[7][$i][$j])/0.98326;
+---
+> 	#$temp=0.01674*psicov($pred[1][$i][$j])*betacon($pred[3][$i][$j])*spcon($pred[6][$i][$j])*meta($pred[7][$i][$j])*gremlin($pred[8][$i][$j])/0.98326;
+> 
+> #		$temp=0.01674*psicov($pred[1][$i][$j])*betacon($pred[3][$i][$j])*spcon($pred[6][$i][$j])*meta()/0.98326;
+481,482d485
+< #		$temp=0.01674*ccmpred($pred[0][$i][$j])*psicov($pred[1][$i][$j])*evfold($pred[2][$i][$j])*betacon($pred[3][$i][$j])*svmcon($pred[4][$i][$j])*svmseq($pred[5][$i][$j])*spcon($pred[6][$i][$j])/0.98326;
+< #			$temp=0.01674*betacon($pred[0][$i][$j])*svmcon($pred[1][$i][$j])*svmseq($pred[2][$i][$j])*spcon($pred[3][$i][$j])*psicov($pred[4][$i][$j])/0.98326;			

@@ -1,0 +1,243 @@
+#!/usr/bin/perl
+#PBS -e !ERRFILE!
+#PBS -o !OUTFILE!
+#PBS -l !WALLTIME!
+#PBS -l !NODE!
+
+use Math::Trig;
+
+use Cwd qw();
+$envdir=Cwd::abs_path();
+
+########### setup  the environment and Working DIRectory ###
+#$ENV{'PATH'}="/usr/local/bin:/bin:/usr/bin:/usr/X11R6/bin:/usr/pgi/linux86/bin";
+#$ENV{'LD_LIBRARY_PATH'}="/usr/local/lib:/usr/lib:/lib";
+#$ENV{'LD_LIBRARY_PATH'}="$envdir/shared_lib:$ENV{'LD_LIBRARY_PATH'}";
+
+##### report node -------->
+`hostname`=~/(\S+)/;
+$node=$1;
+printf "hostname: $node\n";
+$time=`date`;
+printf "starting time: $time";
+$pwd=`pwd`;
+printf "pwd: $pwd";
+#^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+################# directories #############################
+$data_dir="!DATA_DIR!";  #for seq.txt and init.dat
+
+$tag="!TAG!";
+
+#$work_dir="/tmp/!USER!/!TAG!";
+$work_dir="/scratch/$ENV{USER}/$ENV{SLURM_JOBID}";
+$work_dir="/tmp/$ENV{USER}" if (!-d "$work_dir" || ! "$ENV{SLURM_JOBID}");
+$work_dir="$work_dir/$tag";
+
+
+$psicov_dir="!BIN_DIR!/psicov"; ##Edited from /nfs/amino-library/contact/
+$blastdir="!BIN_DIR!/lib/blast/bin"; #Edited from /nfs/amino-library/blast/bin
+$libdir="!BIN_DIR!/lib"; ## Added
+################ working directory ########################
+`/bin/rm -fr $work_dir`;
+`/bin/mkdir -p $work_dir`;
+chdir "$work_dir";
+
+################ make fasta sequence file #################
+@seqtxts=`cat $data_dir/seq.txt`;
+$sequence="";
+foreach $seqtxt(@seqtxts){
+    goto pos6 if($seqtxt=~/\>/);
+    $seqtxt=~s/\s//mg;
+    $seqtxt=~s/\n//mg;
+    $sequence=$sequence.$seqtxt;
+  pos6:;
+}
+$Lch=length $sequence;
+open(seq,">protein.seq");
+printf seq ">protein\n";
+for($i=1;$i<=$Lch;$i++){
+    $a=substr($sequence,$i-1,1);
+    printf seq "$a";
+    $seqQ{$i}=$a;   #only for check
+    #$log{$i,$seqQ{$i}}++;
+    if($i==int($i/60)*60){
+	printf seq "\n";
+    }
+}
+printf seq "\n";
+close(seq);
+
+########### run psi-blast #######################
+# it turns out that if blast run too long, it means the number of homologies
+# is too high. In this situation, hhblits is enough. So termination within 20 mins works
+#
+$db="$libdir/uniref90/uniref90.fasta"; ### Changed
+printf "running Psi-blast .....\n";
+#system("/nfs/amino-home/zhng/bin/exe_time.pl 60 $blastdir/blastpgp -b 70000 -j 3 -h 0.001 -d $db -i protein.seq -o blast.out");
+#system("/nfs/amino-home/zhng/bin/exe_time.pl 20 $blastdir/blastpgp -b 70000 -j 3 -h 0.001 -d $db -i protein.seq -o blast.out");
+system("timeout 20m $blastdir/blastpgp -b 70000 -j 3 -h 0.001 -d $db -i protein.seq -o blast.out");
+
+###### profile data ############################
+######## read blast.out ------------>
+undef %am;
+open(blast,"blast.out");
+while($line=<blast>){
+    if($line=~/Results from round\s+(\d+)/){
+	$ROUND=$1;
+    }
+}
+seek(blast,0,0);
+
+$it=0;
+while($line=<blast>){
+    if($line=~/Results from round\s+$ROUND/){
+	while($line=<blast>){
+	    if($line=~/Identities =\s*\S+\s+/){
+		<blast>;
+		$it++; #number of aligned sequences
+		while($line=<blast>){
+		    if($line=~/Quer\S+\s*(\d+)\s+(\S+)\s+(\S+)/){
+			$i1=$1;
+			$seq1=$2;
+			<blast>;
+			<blast>=~/Sbjc\S+\s*(\S+)\s+(\S+)\s+(\S+)/;
+			$seq2=$2;
+			$seq2=~s/\*/X/mg;
+			$seq2=uc($seq2);
+			<blast>;
+			###
+			$L=length $seq1;
+			$m1=$i1-1;
+			for($i=1;$i<=$L;$i++){
+			    $q1=substr($seq1,$i-1,1);
+			    $q2=substr($seq2,$i-1,1);
+			    $m1++ if($q1 ne '-');
+			    if($q1 ne '-' && $q2 ne '-'){
+				$am{$it,$m1}=$q2;
+			    }
+			}
+			###
+		    }else{
+			goto pos1a;
+		    }
+		}
+	      pos1a:;
+	    }
+	}
+    }
+}
+close(blast);
+
+###### output MSA for check:
+open(RRR,">protein.blast");
+for($j=1;$j<=$it;$j++){
+    for($i=1;$i<=$Lch;$i++){
+	$a=$am{$j,$i};
+	if($a!~/\S/){
+	    $a="-";
+	}
+	print RRR "$a";
+    }
+    printf RRR "\n";
+}
+close(RRR);
+
+#exit();
+
+########### run HHblits #######################
+printf "running HHblits .....\n";
+$hhbin="$libdir/hhsuite"; ## Think about it whether we would like to include it or not in the package
+$hhdb ="$hhbin/uniprot20_2016_02/uniprot20_2016_02"; ## Think about it whether we would like to include it or not in the package
+system("$hhbin/bin/hhblits -d $hhdb -i protein.seq -oa3m protein.a3m -mact 0 -n 3 -diff inf -cov 60");
+system("egrep -v \"^>\" protein.a3m | sed 's/[a-z]//g' | sort -u > protein.hhblit");
+
+####### count number of hhblit_msa -------->
+$it1=0;
+open(a,"protein.hhblit");
+while($line=<a>){
+    if($line=~/\S+/){
+	$it1++;
+    }
+}
+close(a);
+
+########### merge blast_msa and hhblit_msa ---------->
+#system("$psicov_dir/fasta2aln/fasta2aln pre1 > pre2");
+`cat protein.hhblit protein.blast > protein.aln1`;
+`sort -n protein.aln1 | uniq > protein.aln`;
+`cp protein.hhblit $data_dir`;
+`cp protein.blast $data_dir`;
+`cp protein.aln $data_dir`;
+
+####### count number of hhblit+blast_msa -------->
+$it2=0;
+open(a,"protein.aln");
+while($line=<a>){
+    if($line=~/\S+/){
+	$it2++;
+    }
+}
+close(a);
+
+open(a,">$data_dir/msa.dat");
+printf a "Number of unique sequences in blast_hhblit_msa:  %5d\n",$it2;
+printf a "Number of sequences in blast_msa:  %5d\n",$it;
+printf a "Number of sequences in hhblit_msa: %5d\n",$it1;
+printf a "Number of sequences in blast_hhblit_msa:  %5d\n",$it+$it1;
+close(a);
+
+############### run psicov -------------------->
+#$psicov="$psicov_dir/psicov -p -r 0.001"; #fast mode
+$psicov="$psicov_dir/psicov -p -d 0.03";  #slow mode
+
+system("$psicov protein.aln > protein.map");
+if(-s "protein.map" <10){
+    `rm -rf $work_dir`;
+    exit();
+    system("$psicov_dir/$psicov -o protein.aln > protein.map");
+}
+
+############ sort output ----------->
+open(a,"protein.map");
+$n=0;
+while($line=<a>){
+    if($line=~/(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)/){
+	$n++;
+	$I{$n}=$1;
+	$J{$n}=$2;
+	$conf{$n}=$5;
+    }
+}
+close(a);
+open(a,">psicov.dat");
+printf a "$n\n";
+for($i=1;$i<=$n;$i++){
+    printf a "%5d %5d %8.3f\n",$I{$i},$J{$i},$conf{$i};
+}
+close(a);
+
+############## Copy result back to output ##########
+`/bin/cp psicov.dat $data_dir/psicov.dat`;
+`/bin/cp psicov.dat $data_dir/psicov.NNB`; #for NN-BAYES
+
+############### convert contact into QUARK format ------->
+#$a1="$work_dir/psicov.dat";
+#$a2="$data_dir/seq100.com.ss";
+#$a2="$data_dir/seq.dat.ss" if(!-s "$a2");
+#$a3="$data_dir/exp100.dat";
+#$a3="$data_dir/exp.dat" if(!-s "$a3");
+#$a4="$work_dir/psicov.dat.quark";
+#$bind="/nfs/amino-home/zhng/pdbinput/contact/bin";
+#system("$bind/cont_quark.pl $a1 $a2 $a3 $a4");
+#`cp $work_dir/psicov.dat.quark $data_dir/psicov.dat.quark`;
+#^^^^^^^^^^^^ contact.quark completed ^^^^^^^^^^^^^^^^^^^
+
+################# endding procedure ######################
+`rm -rf $work_dir`;
+$time=`date`;
+printf "ending time: $time";
+`sync`;
+`sync`;
+sleep(1);
+exit();
