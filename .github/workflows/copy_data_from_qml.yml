@@ -29,8 +29,9 @@ jobs:
         rm mkldiscover.py
         rm requirements.txt
         rm setup.py
+        cd ../
         git remote -v
-        cp -r tests/qm7/. ../master/Learning-Curves-Representations-and-Training-Sets/Practical-Session/Quantum-Machine-Learning/qml-tutorial-master/qm7
+        cp -r qml/tests/qm7/. master/Learning-Curves-Representations-and-Training-Sets/Practical-Session/Quantum-Machine-Learning/qml-tutorial-master/qm7
         git push origin master：master
         
     
