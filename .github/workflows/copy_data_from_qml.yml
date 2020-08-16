@@ -27,13 +27,16 @@ jobs:
         git config --global user.name "nickcafferry"
         git rm -rf 0505.xyz
         git commit -m "remove 0505.xyz"
-        git push orange master
         ls
         
         echo "------------------------------------------------------\n"
-        
-        
 
+    - name: Deploy to GitHub pages
+      uses: JamesIves/github-pages-deploy-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: master
+        FOLDER: quantum
     
 
 
