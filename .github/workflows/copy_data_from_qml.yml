@@ -13,14 +13,12 @@ jobs:
       run: |
         cd 
         ls
-        git clone https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git
-        cd Machine-Learning-in-Molecular-Sciences/
-        git config --global user.email "wei.mei.18@alumni.ucl.ac.uk"
+        git init
+        git config --global user.email "ucecwme@ucl.ac.uk"
         git config --global user.name "nickcafferry"
         git rm -rf 0505.xyz
         git commit -m "remove 0505.xyz"
-        git remote add orange git@github.com:nickcafferry/Machine-Learning-in-Molecular-Sciences.git
-        git push orange master
+        git push origin master
         ls
         echo "------------------------------------------------------\n"
         
