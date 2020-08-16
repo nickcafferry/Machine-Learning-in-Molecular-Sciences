@@ -12,8 +12,6 @@ jobs:
     - name: Clone repositories
       run: |
         ls
-        git clone -o origin https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git quantum
-        cd quantum/
         git config --global user.email "wei.mei.18@alumni.ucl.ac.uk"
         git config --global user.name "nickcafferry"
         git rm -rf 0505.xyz
@@ -21,12 +19,6 @@ jobs:
         ls
         echo "------------------------------------------------------\n"
         
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@3.5.9
-      with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: master # The branch the action should deploy to.
-          FOLDER: quantum # The folder the action should deploy.
         
 
     
