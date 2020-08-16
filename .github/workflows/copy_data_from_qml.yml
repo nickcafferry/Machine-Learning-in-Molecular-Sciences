@@ -28,11 +28,11 @@ jobs:
         rm requirements.txt
         rm setup.py
         cd ../../
-        git clone -b quantum https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
+        git clone -o orange -b quantum https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
         git remote -v
         git branch
         cp -r quantum/qml/tests/qm7/. master/Learning-Curves-Representations-and-Training-Sets/Practical-Session/Quantum-Machine-Learning/qml-tutorial-master/qm7
-        git push origin master : master
+        git push origin quantum : origin/master
 
     
 
