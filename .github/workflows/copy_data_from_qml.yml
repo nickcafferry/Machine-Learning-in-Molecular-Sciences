@@ -33,7 +33,7 @@ jobs:
         git remote -v
         git branch
         cp -r quantum/qml/tests/qm7/. master/Learning-Curves-Representations-and-Training-Sets/Practical-Session/Quantum-Machine-Learning/qml-tutorial-master/qm7
-        git push orange master : orange/master
+        git push orange master : master
 
     
 
