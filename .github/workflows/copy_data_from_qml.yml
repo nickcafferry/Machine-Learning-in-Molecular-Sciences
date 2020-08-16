@@ -19,7 +19,7 @@ jobs:
         cd ..
         mkdir quantum 
         cd quantum/
-        git clone -o mlms -b quantum https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
+        git clone -o origin -b quantum https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
         git clone https://github.com/qmlcode/qml.git qml
         cd qml/
         rm -rf qml
@@ -31,7 +31,7 @@ jobs:
         rm setup.py
         git remote -v
         cp -r tests/qm7/. ../master/Learning-Curves-Representations-and-Training-Sets/Practical-Session/Quantum-Machine-Learning/qml-tutorial-master/qm7
-        git push mlms master：https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences/tree/master
+        git push origin master：master
         
     
 
