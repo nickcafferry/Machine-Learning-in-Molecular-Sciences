@@ -15,8 +15,6 @@ jobs:
       run: |
         git config --global user.email "wei.mei.18@alumni.ucl.ac.uk"
         git config --global user.name "Wei Mei"
-        ls
-        echo "------------------------------------------------------\n"
         git rm -rf 0504.xyz
         git rm -rf 0505.xyz
         git rm -rf 0506.xyz
@@ -30,6 +28,10 @@ jobs:
         git commit -m "remove 0506.xyz"
         git commit -m "remove 0507.xyz"
         git commit -m "remove 0508.xyz"
+        git commit -m "remove 0509.xyz"
+        git commit -m "remove 0510.xyz"
+        git commit -m "remove 0511.xyz"
+        git push origin master
         ls
         echo "------------------------------------------------------\n"
         
