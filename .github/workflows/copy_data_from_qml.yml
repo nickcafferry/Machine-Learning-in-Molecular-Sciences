@@ -17,19 +17,14 @@ jobs:
     - name: Clone repositories
       run: |
         ls
+        printf "------------------------------------------------------\n"
         find . -name '*.xyz' | xargs rm -rf
         ls
+        printf "------------------------------------------------------\n"
         rm -rf master
         rm -rf qm7
-        mkdir quantum
-        cd quantum/
-        git clone -o orange -b qml https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
-        cd master/
-        ls
-        find . -name '*.xyz' | xargs rm -rf
-        ls
-        cd ../../
-
+        rm -rf quantum
+        printf "------------------------------------------------------\n"
         
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.5.9
