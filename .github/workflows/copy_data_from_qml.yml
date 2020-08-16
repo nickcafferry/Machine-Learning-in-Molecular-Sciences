@@ -31,7 +31,7 @@ jobs:
         git commit -m "remove 0509.xyz"
         git commit -m "remove 0510.xyz"
         git commit -m "remove 0511.xyz"
-        git push origin master
+        git push
         ls
         echo "------------------------------------------------------\n"
         
