@@ -1,9 +1,6 @@
 name: Build up document
 
-on:
-  push:
-    branches:
-      - master
+on: [push, pull_request]
 
 jobs:
   build_docs_and_deploy:
