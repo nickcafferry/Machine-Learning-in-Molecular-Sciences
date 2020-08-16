@@ -16,16 +16,19 @@ jobs:
 
     - name: Clone repositories
       run: |
+        git clone -o orange -b qml https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
+        cd master/
         ls
         find . -name '*.xyz' | xargs rm -rf
         ls
+        cd ../
         
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.5.9
       with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: master # The branch the action should deploy to.
-          FOLDER: .  # The folder the action should deploy.
+          FOLDER: master  # The folder the action should deploy.
         
 
     
