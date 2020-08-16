@@ -15,7 +15,8 @@ jobs:
       run: |
         ls
         echo "------------------------------------------------------\n"
-        find . -name '*.xyz' | xargs git rm -rf
+        git rm -rf 0504.xyz
+        git rm -rf 0505.xyz
         ls
         echo "------------------------------------------------------\n"
         git commit
