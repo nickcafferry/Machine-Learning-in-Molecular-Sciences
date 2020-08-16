@@ -16,11 +16,10 @@ jobs:
 
     - name: Clone repositories
       run: |
-        cd ..
         git remote add origin https://nickcafferry:732361902991@nickCafferry@github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git
         mkdir quantum 
         cd quantum/
-        git clone -o origin -b quantum https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
+        git clone -o orange -b quantum https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
         git clone https://github.com/qmlcode/qml.git qml
         cd qml/
         rm -rf qml
@@ -34,7 +33,7 @@ jobs:
         git remote -v
         git branch
         cp -r ../qml/tests/qm7/. ./Learning-Curves-Representations-and-Training-Sets/Practical-Session/Quantum-Machine-Learning/qml-tutorial-master/qm7
-        git push origin quantum : origin/master
+        git push orange quantum : orange/master
 
     
 
