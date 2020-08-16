@@ -12,9 +12,10 @@ jobs:
     - name: Clone repositories
       run: |
         ls
+        git clone https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git quantum
+        cd quantum/
         git config --global user.email "wei.mei.18@alumni.ucl.ac.uk"
         git config --global user.name "Wei Mei"
-        
         git rm -rf 0505.xyz
         git rm -rf 0506.xyz
         git rm -rf 0507.xyz
@@ -39,7 +40,7 @@ jobs:
       with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: master # The branch the action should deploy to.
-          FOLDER: .  # The folder the action should deploy.
+          FOLDER: quantum # The folder the action should deploy.
         
 
     
