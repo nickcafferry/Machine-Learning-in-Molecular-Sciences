@@ -19,6 +19,12 @@ jobs:
         echo "------------------------------------------------------\n"
         git rm -rf 0504.xyz
         git rm -rf 0505.xyz
+        git rm -rf 0506.xyz
+        git rm -rf 0507.xyz
+        git rm -rf 0508.xyz
+        git rm -rf 0509.xyz
+        git rm -rf 0510.xyz
+        git rm -rf 0511.xyz
         ls
         echo "------------------------------------------------------\n"
         
