@@ -21,10 +21,10 @@ jobs:
         cd quantum
         rm -rf qml
         rm -rf docs
-        git clone -b quantum https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
+        git clone -o mlms -b quantum https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
         git remote -v
         cp -r tests/qm7/. master/Learning-Curves-Representations-and-Training-Sets/Practical-Session/Quantum-Machine-Learning/qml-tutorial-master/qm7
-        git push origin master：https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences/tree/master
+        git push mlms master：https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences/tree/master
         
     
 
