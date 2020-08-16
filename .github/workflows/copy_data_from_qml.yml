@@ -29,10 +29,15 @@ jobs:
         rm setup.py
         cd ../../
         git clone -o orange -b quantum https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
-        git remote -v
-        git branch
         cp -r quantum/qml/tests/qm7/. master/Learning-Curves-Representations-and-Training-Sets/Practical-Session/Quantum-Machine-Learning/qml-tutorial-master/qm7
-        git push origin master : origin/master
+        
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@3.5.9
+      with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: master # The branch the action should deploy to.
+          FOLDER: master # The folder the action should deploy.
+        
 
     
 
