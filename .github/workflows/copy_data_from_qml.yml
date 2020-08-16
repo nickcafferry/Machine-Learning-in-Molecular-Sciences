@@ -16,7 +16,8 @@ jobs:
 
     - name: Clone repositories
       run: |
-        cd ..
+        mkdir rest
+        cd rest/
         git clone -b quantum https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
         cd master
         ls
