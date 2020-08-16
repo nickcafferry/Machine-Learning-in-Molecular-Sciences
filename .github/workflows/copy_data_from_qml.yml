@@ -16,7 +16,9 @@ jobs:
         git init
         git remote add orange https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git
         git remote -v
+        echo "------------------------------------------------------\n"
         git branch
+        echo "------------------------------------------------------\n"
         git pull orange master
         ls
         echo "------------------------------------------------------\n"
