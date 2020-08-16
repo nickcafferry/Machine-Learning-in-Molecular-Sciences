@@ -13,6 +13,8 @@ jobs:
 
     - name: Clone repositories
       run: |
+        git config --global user.email "wei.mei.18@alumni.ucl.ac.uk"
+        git config --global user.name "Wei Mei"
         ls
         echo "------------------------------------------------------\n"
         git rm -rf 0504.xyz
