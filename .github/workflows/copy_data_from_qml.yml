@@ -11,6 +11,7 @@ jobs:
 
     - name: Clone repositories
       run: |
+        git clone https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git
         ls
         git init
         git config --global user.email "ucecwme@ucl.ac.uk"
