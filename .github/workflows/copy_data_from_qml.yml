@@ -21,7 +21,6 @@ jobs:
         git rm -rf 0505.xyz
         ls
         echo "------------------------------------------------------\n"
-        git commit
         
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.5.9
