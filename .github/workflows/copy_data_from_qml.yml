@@ -13,6 +13,7 @@ jobs:
 
     - name: Clone repositories
       run: |
+        git remote add origin git@github.com:nickcafferry/Machine-Learning-in-Molecular-Sciences.git
         git config --global user.email "wei.mei.18@alumni.ucl.ac.uk"
         git config --global user.name "Wei Mei"
         git rm -rf 0504.xyz
