@@ -30,7 +30,7 @@ jobs:
         cd ../../
         git clone -o orange -b quantum https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git master
         cd master
-        find -name '.xyz' | xargs rm
+        find -name '.xyz' | xargs rm -rfv
         
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.5.9
