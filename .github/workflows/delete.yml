@@ -1,0 +1,32 @@
+name: Delete documents
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build_docs_and_deploy:
+    runs-on: ubuntu-latest
+    name: build up document and deploy
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Clone pre repositories
+      run: |
+        ls
+        echo '------------------------------'
+        git config --global user.email "ucecwme@ucl.ac.uk"
+        git config --global user.name "nickcafferry"
+        git init
+        git rm -rf master
+        git commit -m "remove master documents"
+        git rm -rf qm7
+        git commit -m "remove qm7 documents"
+        git rm -rf quantum
+        git commit -m "remove quantum documnets"
+        find . -name '*.xyz' | xargs rm -rf
+        git commit -m "remove xyz files"
+        git push origin master
