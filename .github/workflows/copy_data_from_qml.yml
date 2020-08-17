@@ -17,10 +17,9 @@ jobs:
       
     - name: Clone repositories
       run: |
-        cd ../
-        mkdir quantum
-        cd quantum/
-        git clone https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git qml
+        mkdir quant
+        cd quant/
+        git clone -b qml https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git qml
         git branch -a
         cd qml/
         find . -name '*.xyz' | xargs rm -rfv
@@ -31,8 +30,8 @@ jobs:
         echo "------------------------------------------------------\n"
         cd ../../
         mkdir mlms
-        export PATH="$PATH:/home/runner/.local/bin:/home/runner/Machine-Learning-in-Molecular-Sciences/mlms"
-        cp -r quantum/qml/. mlms
+        export PATH="$PATH:/home/runner/.local/bin:/home/runner/Machine-Learning-in-Molecular-Sciences/quant"
+        cp -r quant/qml/. mlms
 
     - name: Deploy to GitHub pages
       uses: JamesIves/github-pages-deploy-action@master
