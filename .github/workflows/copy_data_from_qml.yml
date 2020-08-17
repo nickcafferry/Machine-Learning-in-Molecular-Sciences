@@ -13,7 +13,7 @@ jobs:
       run: |
         mkdir quantum
         cd quantum/
-        git clone https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git qml
+        git clone -b qml https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git qml
         cd qml/
         find . -name '*.xyz' | xargs rm -rfv
         rm -rf qm7
