@@ -26,6 +26,7 @@ jobs:
         echo "------------------------------------------------------\n"
         cd ../../
         mkdir mlms
+        export PATH="$PATH:/home/runner/.local/bin:/home/runner/Machine-Learning-in-Molecular-Sciences/mlms"
         cp -r quantum/qml/. mlms
 
     - name: Deploy to GitHub pages
