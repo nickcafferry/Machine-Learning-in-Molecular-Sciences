@@ -1,4 +1,4 @@
-name: Delete xyz files
+name: Delete inner xyz files
 
 on:
   push:
