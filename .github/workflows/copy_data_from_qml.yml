@@ -13,30 +13,24 @@ jobs:
       run: |
         mkdir quantum
         cd quantum/
-        git init
-        git remote add orange https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git
-        git remote -v
-        echo "------------------------------------------------------\n"
-        git branch
-        echo "------------------------------------------------------\n"
-        git pull orange master
+        git clone https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git qml
+        cd qml/
+        find . -name '*.xyz' | xargs rm -rfv
+        rm -rf qm7
+        rm -rf master
+        rm -rf quantum/master
         ls
         echo "------------------------------------------------------\n"
-        
-        git config --global user.email "ucecwme@ucl.ac.uk"
-        git config --global user.name "nickcafferry"
-        git rm -rf 0505.xyz
-        git commit -m "remove 0505.xyz"
-        ls
-        
-        echo "------------------------------------------------------\n"
+        cd ../
+        mkdir mlms
+        cp -r quantum/qml/. mlms
 
     - name: Deploy to GitHub pages
       uses: JamesIves/github-pages-deploy-action@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: quantum
-        FOLDER: quantum
+        FOLDER: mlms
     
 
 
