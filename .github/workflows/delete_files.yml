@@ -21,6 +21,52 @@ jobs:
         git config --global user.email "ucecwme@ucl.ac.uk"
         git config --global user.name "nickcafferry"
         git init
-        find . -name '*.xyz' | xargs git rm -rf
+        git rm 0504.xyz
+        git rm 0505.xyz
+        git rm 0506.xyz
+        git rm 0507.xyz
+        git rm 0508.xyz
+        git rm 0509.xyz
+        git rm 0510.xyz
+        git rm 0511.xyz
+        git rm 0512.xyz
+        git rm 0513.xyz
+        git rm 0514.xyz
+        git rm 0515.xyz
+        git rm 0516.xyz
+        git rm 0517.xyz
+        git rm 0518.xyz
+        git rm 0519.xyz
+        git rm 0520.xyz
+        git rm 0521.xyz
+        git rm 0522.xyz
+        git rm 0523.xyz
+        git rm 0524.xyz
+        git rm 0525.xyz
+        git rm 0526.xyz
+        git rm 0527.xyz
+        git rm 0528.xyz
+        git rm 0529.xyz
+        git rm 0530.xyz
+        git rm 0531.xyz
+        git rm 0532.xyz
+        git rm 0533.xyz
+        git rm 0534.xyz
+        git rm 0535.xyz
+        git rm 0536.xyz
+        git rm 0537.xyz
+        git rm 0538.xyz
+        git rm 0539.xyz
+        git rm 0540.xyz
+        git rm 0541.xyz
+        git rm 0542.xyz
+        git rm 0543.xyz
+        git rm 0544.xyz
+        git rm 0545.xyz
+        git rm 0546.xyz
+        git rm 0547.xyz
+        git rm 0548.xyz
+        git rm 0549.xyz
+        git rm 0550.xyz
         git commit -m "remove xyz"
         git push origin master
