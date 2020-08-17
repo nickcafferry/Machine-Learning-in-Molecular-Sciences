@@ -3,7 +3,7 @@ name: Build up document
 on:
   push:
     branches:
-      - master
+      - qml
 
 jobs:
   build_docs_and_deploy:
@@ -17,6 +17,7 @@ jobs:
         mkdir quantum
         cd quantum/
         git clone -b qml https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences.git qml
+        git branch -a
         cd qml/
         find . -name '*.xyz' | xargs rm -rfv
         rm -rf qm7
