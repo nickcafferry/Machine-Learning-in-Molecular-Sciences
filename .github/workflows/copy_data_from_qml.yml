@@ -3,7 +3,7 @@ name: Build up document
 on:
   push:
     branches:
-      - qml
+      - master
 
 jobs:
   build_docs_and_deploy:
@@ -12,6 +12,9 @@ jobs:
 
     steps:
 
+    - name: Checkout
+      uses: actions/checkout@master
+      
     - name: Clone repositories
       run: |
         mkdir quantum
