@@ -28,5 +28,4 @@ jobs:
         git rm -rf quantum
         git commit -m "remove quantum documnets"
         find . -name '*.xyz' | xargs rm -rf
-        git commit -m "remove xyz files"
         git push origin master
