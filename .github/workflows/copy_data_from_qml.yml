@@ -18,7 +18,7 @@ jobs:
         find . -name '*.xyz' | xargs rm -rfv
         rm -rf qm7
         rm -rf master
-        rm -rf quantum/master
+        rm -rf quantum
         ls
         echo "------------------------------------------------------\n"
         cd ../
