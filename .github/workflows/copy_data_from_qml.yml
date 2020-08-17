@@ -21,7 +21,7 @@ jobs:
         rm -rf quantum
         ls
         echo "------------------------------------------------------\n"
-        cd ../
+        cd ../../
         mkdir mlms
         cp -r quantum/qml/. mlms
 
