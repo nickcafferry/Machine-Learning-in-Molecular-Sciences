@@ -1,7 +1,7 @@
 [![Documentation Status](https://readthedocs.org/projects/machine-learning-on-molecular-sciences/badge/?version=latest)](https://machine-learning-on-molecular-sciences.readthedocs.io/en/latest/?badge=latest)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
-[![Mathematica](https://img.shields.io/badge/mathematica-v11.0-brightgreen)](https://www.wolfram.com/mathematica/)
-[![Python version](https://img.shields.io/badge/python-3.7|3.8-blue.svg)](https://www.python.org/)
+[![Mathematica](https://img.shields.io/badge/mathematica%20v11.0-brightgreen)](https://www.wolfram.com/mathematica/)
+[![Python version](https://img.shields.io/badge/python-3.7,%203.8-blue.svg)](https://www.python.org/)
 [![Wolfram Cloud](https://img.shields.io/badge/platform-wolfram%20cloud-brightgreen)](https://www.wolframcloud.com/)
 [![Huawei Clodu](https://img.shields.io/badge/platform-huawei%20cloud-blue)](https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fconsole%2F%3Flocale%3Dzh-cn#/login)
 
