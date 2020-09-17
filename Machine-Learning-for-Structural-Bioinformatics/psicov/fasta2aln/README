@@ -1,0 +1,17 @@
+This is a quick-and-dirty utility for converting a FASTA format alignment into
+the PSICOV input alignment format.
+
+To compile:
+
+cc -O fasta2aln.c -o fasta2aln
+
+
+Usage:
+
+fasta2aln myalignment.fasta > output.aln
+
+
+IMPORTANT NOTE:
+
+Make sure the first sequence in the FASTA file is your desired target sequence, as
+the program will remove any columns with gaps in the first sequence.
