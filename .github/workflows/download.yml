@@ -1,0 +1,33 @@
+name: PSSpred
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build_docs_and_deploy:
+    runs-on: ubuntu-latest
+    name: Protein Secondary Structure prediction
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Clone pre repositories
+      run: |
+        ls
+        echo '------------------------------'
+        git config --global user.email "ucecwme@ucl.ac.uk"
+        git config --global user.name "nickcafferry"
+        git init
+        cd Machine-Learning-for-Structural-Bioinformatics/
+        mkdir PSSpred
+        cd PSSpred/
+        wget https://zhanglab.ccmb.med.umich.edu/PSSpred/PSSpred_v4.tar.bz2
+        tar -jxvf PSSpred_v4.tar.bz2
+        echo "Done with downloading and extracting PSSpred_v4!"
+        git add -A
+        git commit -m "Add PSSpred"
+        cd ../../
+        git push origin master
