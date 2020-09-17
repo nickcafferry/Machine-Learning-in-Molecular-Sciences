@@ -22,12 +22,15 @@ jobs:
         git config --global user.name "nickcafferry"
         git init
         cd Machine-Learning-for-Structural-Bioinformatics/
-        mkdir PSSpred
+
         cd PSSpred/
-        wget https://zhanglab.ccmb.med.umich.edu/PSSpred/PSSpred_v4.tar.bz2
-        tar -jxvf PSSpred_v4.tar.bz2
-        echo "Done with downloading and extracting PSSpred_v4!"
+        
+        mkdir nr
+        cd nr/
+        wget -O nr.tar.gz https://zhanglab.ccmb.med.umich.edu/cgi-bin/download_ftp.cgi?ID=nr.tar.gz
+        tar -zxvf nr.tar.gz
+        echo "Done with downloading and extracting nr!"
         git add -A
-        git commit -m "Add PSSpred"
-        cd ../../
+        git commit -m "Add nr.tar.gz"
+        cd ../../../
         git push origin master
