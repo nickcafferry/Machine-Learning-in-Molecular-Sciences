@@ -26,7 +26,6 @@ install:
     python3 setup.py install
     
 script:
-  github-token: $GITHUB_TOKEN
   - git config --global user.email "wei.mei.18@alumni.ucl.ac.uk"
   - git config --global user.name "nickcafferry"
   - git init
@@ -58,6 +57,5 @@ script:
   - git commit -m "Add seq.dat.ss" 
   - pwd
   - cd ../../../
-  - git push origin master
 notifications:
   email: false
