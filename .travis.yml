@@ -21,6 +21,7 @@ before_install:
   - pwd
   
 before_install:
+  - sudo apt-get install liblapack-dev
   - sudo apt-get install gfortran
   - pip3 install coverage
   - pip3 install codecov
