@@ -21,7 +21,7 @@ before_install:
   - pwd
   
 before_install:
-  - pip3 install gfortran
+  - sudo apt-get install gfortran
   - pip3 install coverage
   - pip3 install codecov
   - pip3 install -U tox-travis
