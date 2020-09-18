@@ -29,6 +29,8 @@ script:
  - git config --global user.email "wei.mei.18@alumni.ucl.ac.uk"
  - git config --global user.name "nickcafferry"
  - git init
+ - echo -e "machine github.com\n  login $GITHUB_TOKEN" > ~/.netrc
+ - git lfs pull
  - ls
  - coverage debug sys
  - coverage run pymbd/vdw_param.py
