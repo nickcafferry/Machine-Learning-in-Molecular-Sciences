@@ -40,7 +40,6 @@ install:
 script:
  - ls
  - coverage debug sys
- - coverage run pymbd/pymbd.py
  - codecov
  - bash <(curl -s https://codecov.io/bash)
 notifications:
