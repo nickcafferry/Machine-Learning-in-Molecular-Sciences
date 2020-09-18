@@ -1,0 +1,7 @@
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.psi filter=lfs diff=lfs merge=lfs -text
+*.phr filter=lfs diff=lfs merge=lfs -text
+*.pni filter=lfs diff=lfs merge=lfs -text
+*.pnd filter=lfs diff=lfs merge=lfs -text
+*.psq filter=lfs diff=lfs merge=lfs -text
+*.pal filter=lfs diff=lfs merge=lfs -text
