@@ -29,6 +29,7 @@ script:
  - git config --global user.email "wei.mei.18@alumni.ucl.ac.uk"
  - git config --global user.name "nickcafferry"
  - git init
+ - git lfs install
  - echo -e "machine github.com\n  login $GITHUB_TOKEN" > ~/.netrc
  - git lfs pull
  - ls
@@ -47,6 +48,9 @@ script:
  - cd PSSpred_v4/
  - ./PSSpred.pl seq.fasta
  - ls
+ - git lfs track "*.dat"
+ - git add .gitattributes
+ - git commit -m "track *.psd files using Git LFS"
  - git add seq.dat
  - git commit -m "Add seq.dat"
  - git add seq.dat.ss
