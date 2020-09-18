@@ -37,6 +37,7 @@ script:
  - tar -zxvf nr.tar.gz
  - cd ../
  - sudo apt-get install perl
+ - cd PSSpred_v4/
  - ./PSSpred.pl seq.fasta
  - ls
  - pwd
