@@ -6,11 +6,11 @@ from numpy.distutils.extension import Extension
 metadata = dict(
     name='pymbd',
     version='0.2',
-    description='Many-body dispersion method',
+    description='Many-body Dispersion',
     long_description='See README.md for details.',
-    author='Jan Hermann',
-    author_email='dev@hermann.in',
-    url='https://github.com/azag0/pymbd',
+    author='nickcafferry',
+    author_email='nickcafferry@gmail.com',
+    url='https://github.com/nickcafferry/Machine-Learning-in-Molecular-Sciences/',
     packages=['pymbd'],
     classifiers=[
         'Development Status :: 4 - Beta',
