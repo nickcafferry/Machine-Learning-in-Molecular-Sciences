@@ -25,8 +25,10 @@ before_install:
   - pip3 install coverage
   - pip3 install codecov
   - pip3 install -U tox-travis
+  - pip3 install numpy
 install:
   - |
+    ls
     python3 setup.py build
     python3 setup.py sdist
     python3 setup.py bdist
