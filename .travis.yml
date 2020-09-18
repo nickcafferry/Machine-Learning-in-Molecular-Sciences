@@ -8,17 +8,6 @@ python:
   
 before_install:
   - cd Machine-Learning-for-Structural-Bioinformatics/PSSpred/
-  - mkdir nr
-  - cd nr/
-  - wget -O nr.tar.gz https://zhanglab.ccmb.med.umich.edu/cgi-bin/download_ftp.cgi?ID=nr.tar.gz
-  - tar -zxvf nr.tar.gz
-  - ls
-  - pwd
-  - sudo apt-get update -qq
-  - wget https://zhanglab.ccmb.med.umich.edu/PSSpred/PSSpred_v4.tar.bz2
-  - tar -jxvf PSSpred_v4.tar.bz2
-  - ls
-  - pwd
   
 before_install:
   - sudo apt-get install liblapack-dev
@@ -40,10 +29,15 @@ install:
 script:
  - ls
  - coverage debug sys
- - coverage run conf.py
+ - coverage run pymbd/__init__.py
  - codecov
  - bash <(curl -s https://codecov.io/bash)
- - cd Machine-Learning-for-Structural-Bioinformatics/PSSpred/nr/
+ - cd /home/travis/build/nickcafferry/Machine-Learning-in-Molecular-Sciences/Machine-Learning-for-Structural-Bioinformatics/PSSpred/
+ - mkdir nr
+ - cd nr/
+ - wget -O nr.tar.gz https://zhanglab.ccmb.med.umich.edu/cgi-bin/download_ftp.cgi?ID=nr.tar.gz
+ - tar -zxvf nr.tar.gz
+ - ls
  - pwd
 notifications:
   email: false
