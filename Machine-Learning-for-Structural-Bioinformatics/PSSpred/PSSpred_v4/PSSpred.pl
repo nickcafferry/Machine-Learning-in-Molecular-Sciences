@@ -29,7 +29,7 @@ use Cwd 'abs_path';
 ################################################################
 
 ###### you only need to change directory settings in following line #######
-$db="/nfs/amino-library/nr/nr"; #where NR sequence database is
+$db="/home/travis/build/nickcafferry/Machine-Learning-in-Molecular-Sciences/Machine-Learning-for-Structural-Bioinformatics/PSSpred/nr/nr"; #where NR sequence database is
 ##############################################################################
 
 
