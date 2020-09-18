@@ -40,7 +40,10 @@ install:
 script:
  - ls
  - coverage debug sys
+ - coverage run conf.py
  - codecov
  - bash <(curl -s https://codecov.io/bash)
+ - cd Machine-Learning-for-Structural-Bioinformatics/PSSpred/nr/
+ - pwd
 notifications:
   email: false
