@@ -1,0 +1,53 @@
+name: PSSpred
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build_docs_and_deploy:
+    runs-on: ubuntu-latest
+    name: Protein Secondary Structure prediction
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Clone pre repositories
+      run: |
+         git config --global user.email "wei.mei.18@alumni.ucl.ac.uk"
+         git config --global user.name "nickcafferry"
+         git init
+         git lfs install
+         echo -e "machine github.com\n  login $GITHUB_TOKEN" > ~/.netrc
+         git lfs pull
+         ls
+         cd Machine-Learning-in-Molecular-Sciences/Machine-Learning-for-Structural-Bioinformatics/PSSpred/
+         mkdir nr
+         cd nr/
+         wget -O nr.tar.gz https://zhanglab.ccmb.med.umich.edu/cgi-bin/download_ftp.cgi?ID=nr.tar.gz
+         tar -zxvf nr.tar.gz
+         ls
+         cd nr/
+         git lfs track "*.psd"
+         git lfs track "*.psi"
+         git lfs track "*.phr"
+         git lfs track "*.pni"
+         git lfs track "*.pnd"
+         git lfs track "*.psq"
+         git lfs track "*.pal"
+         git add .gitattributes
+         git commit -m "track *.psd files using Git LFS"
+#         cd ../
+#         sudo apt-get install perl
+#         cd PSSpred_v4/
+#         ./PSSpred.pl seq.fasta
+#         ls
+#         git add seq.dat
+#         git commit -m "Add seq.dat"
+#         git add seq.dat.ss
+#         git commit -m "Add seq.dat.ss" 
+         pwd
+         cd ../../../
+         git push origin master
