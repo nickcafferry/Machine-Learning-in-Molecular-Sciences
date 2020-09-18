@@ -2,8 +2,6 @@ language: python
 sudo: required
 
 python:
-  - "3.6"
-  - "3.7"
   - "3.8"
   
 before_install:
@@ -37,6 +35,8 @@ script:
  - cd nr/
  - wget -O nr.tar.gz https://zhanglab.ccmb.med.umich.edu/cgi-bin/download_ftp.cgi?ID=nr.tar.gz
  - tar -zxvf nr.tar.gz
+ - cd ../
+ - PSSpred.pl seq.fasta
  - ls
  - pwd
 notifications:
