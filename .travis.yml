@@ -38,7 +38,7 @@ script:
  - cd ../
  - sudo apt-get install perl
  - cd PSSpred_v4/
- - PSSpred.pl seq.fasta
+ - ./PSSpred.pl
  - ls
  - pwd
 notifications:
