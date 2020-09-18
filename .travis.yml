@@ -29,7 +29,7 @@ install:
 script:
  - ls
  - coverage debug sys
- - coverage run pymbd/__init__.py
+ - coverage run pymbd/tests.py
  - codecov
  - bash <(curl -s https://codecov.io/bash)
  - cd /home/travis/build/nickcafferry/Machine-Learning-in-Molecular-Sciences/Machine-Learning-for-Structural-Bioinformatics/PSSpred/
