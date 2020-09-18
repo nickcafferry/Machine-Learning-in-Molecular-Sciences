@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: pymbd
+Version: 0.2
+Summary: Many-body dispersion method
+Home-page: https://github.com/azag0/pymbd
+Author: Jan Hermann
+Author-email: dev@hermann.in
+License: Mozilla Public License 2.0
+Description: See README.md for details.
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Fortran
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
