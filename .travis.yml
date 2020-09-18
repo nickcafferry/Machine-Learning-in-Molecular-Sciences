@@ -42,6 +42,8 @@ script:
  - cd PSSpred_v4/
  - ./PSSpred.pl seq.fasta
  - ls
+ - less seq.dat
+ - less seq.dat.ss
  - pwd
 notifications:
   email: false
