@@ -39,6 +39,9 @@ jobs:
          git lfs track "*.pal"
          git add .gitattributes
          git commit -m "track *.psd files using Git LFS"
+         pwd
+         cd ../../../
+         git push origin master
 #         cd ../
 #         sudo apt-get install perl
 #         cd PSSpred_v4/
@@ -48,6 +51,3 @@ jobs:
 #         git commit -m "Add seq.dat"
 #         git add seq.dat.ss
 #         git commit -m "Add seq.dat.ss" 
-         pwd
-         cd ../../../
-         git push origin master
