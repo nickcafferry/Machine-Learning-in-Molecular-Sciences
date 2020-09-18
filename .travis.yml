@@ -45,8 +45,10 @@ script:
  - cd PSSpred_v4/
  - ./PSSpred.pl seq.fasta
  - ls
- - git add -A
- - git status 
+ - git add seq.dat
+ - git commit -m "Add seq.dat"
+ - git add seq.dat.ss
+ - git commit -m "Add seq.dat.ss" 
  - pwd
  - cd ../../../
  - git push origin master
