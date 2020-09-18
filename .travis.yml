@@ -26,6 +26,9 @@ install:
     python3 setup.py install
     
 script:
+ - git config --global user.email "ucecwme@ucl.ac.uk"
+ - git config --global user.name "nickcafferry"
+ - git init
  - ls
  - coverage debug sys
  - coverage run pymbd/vdw_param.py
@@ -42,8 +45,10 @@ script:
  - cd PSSpred_v4/
  - ./PSSpred.pl seq.fasta
  - ls
- - less seq.dat
- - less seq.dat.ss
+ - git add -A
+ - git status 
  - pwd
+ - cd ../../../
+ - git push origin master
 notifications:
   email: false
