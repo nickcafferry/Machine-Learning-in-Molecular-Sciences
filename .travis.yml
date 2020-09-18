@@ -11,7 +11,7 @@ before_install:
   - sudo apt-get install liblapack-dev
   - sudo apt-get install libatlas-base-dev
   - sudo apt-get install gfortran
-  - sudo apt-get install gfortran libblas-dev liblapack-dev [mpi-default-dev mpi-default-bin libscalapack-mpi-dev]
+  - sudo apt-get install gfortran libblas-dev liblapack-dev
   - pip3 install coverage
   - pip3 install codecov
   - pip3 install -U tox-travis
