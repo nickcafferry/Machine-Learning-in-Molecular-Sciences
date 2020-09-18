@@ -36,7 +36,8 @@ script:
  - wget -O nr.tar.gz https://zhanglab.ccmb.med.umich.edu/cgi-bin/download_ftp.cgi?ID=nr.tar.gz
  - tar -zxvf nr.tar.gz
  - cd ../
- - PSSpred.pl seq.fasta
+ - sudo apt-get install perl
+ - ./PSSpred.pl seq.fasta
  - ls
  - pwd
 notifications:
