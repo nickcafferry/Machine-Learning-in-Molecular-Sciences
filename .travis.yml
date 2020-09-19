@@ -26,7 +26,7 @@ install:
     python3 setup.py install
     
 script:
-  - git config --global user.email "wei.mei.18@alumni.ucl.ac.uk"
+  - git config --global user.email "ucecwme@ucl.ac.uk"
   - git config --global user.name "nickcafferry"
   - git init
   - git lfs install
@@ -38,8 +38,8 @@ script:
   - codecov
   - bash <(curl -s https://codecov.io/bash)
   - cd /home/travis/build/nickcafferry/Machine-Learning-in-Molecular-Sciences/Machine-Learning-for-Structural-Bioinformatics/PSSpred/
-  - mkdir nr
-  - cd nr/
+  - mkdir pr
+  - cd pr/
   - wget -O nr.tar.gz https://zhanglab.ccmb.med.umich.edu/cgi-bin/download_ftp.cgi?ID=nr.tar.gz
   - tar -zxvf nr.tar.gz
   - ls
@@ -57,5 +57,6 @@ script:
   - git commit -m "Add seq.dat.ss" 
   - pwd
   - cd ../../../
+  - git push origin master
 notifications:
   email: false
