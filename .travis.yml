@@ -4,17 +4,16 @@ sudo: required
 python:
   - "3.8"
   
+#before_install:
+#  - cd Machine-Learning-for-Structural-Bioinformatics/PSSpred/
+#  - sudo apt-get install liblapack-dev
+#  - sudo apt-get install libatlas-base-dev
+#  - sudo apt-get install gfortran  
+#  - pip3 install codecov
+#  - pip3 install -U tox-travis
 before_install:
-  - cd Machine-Learning-for-Structural-Bioinformatics/PSSpred/
-  
-before_install:
-  - sudo apt-get install liblapack-dev
-  - sudo apt-get install libatlas-base-dev
-  - sudo apt-get install gfortran
   - sudo apt-get install gfortran libblas-dev liblapack-dev
   - pip3 install coverage
-  - pip3 install codecov
-  - pip3 install -U tox-travis
   - pip3 install numpy
 install:
   - |
@@ -24,12 +23,11 @@ install:
     python3 setup.py bdist
     python3 setup.py bdist_egg
     python3 setup.py install
-    
+# - coverage debug sys  
+# - codecov
 script:
   - ls
-  - coverage debug sys
   - coverage run pymbd/vdw_param.py
-  - codecov
   - bash <(curl -s https://codecov.io/bash)
   - cd /home/travis/build/nickcafferry/Machine-Learning-in-Molecular-Sciences/Machine-Learning-for-Structural-Bioinformatics/PSSpred/
   - mkdir nr
