@@ -3,7 +3,7 @@
 [![Mathematica](https://img.shields.io/badge/mathematica-v11.0-brightgreen)](https://www.wolfram.com/mathematica/)
 [![Python version](https://img.shields.io/badge/python-3.7,%203.8-blue.svg)](https://www.python.org/)
 [![Wolfram Cloud](https://img.shields.io/badge/platform-wolfram%20cloud-brightgreen)](https://www.wolframcloud.com/)
-[![Huawei Clodu](https://img.shields.io/badge/platform-huawei%20cloud-blue)](https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fconsole%2F%3Flocale%3Dzh-cn#/login)
+[![Huawei Cloud](https://img.shields.io/badge/platform-huawei%20cloud-blue)](https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fconsole%2F%3Flocale%3Dzh-cn#/login)
 
 **[Aims](#aims)** |
 **[Panel Topics](#panel-topics)** |
